@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Healthy Life — Better Nutrition. Better Living.</title>
+  <meta name="title" content="Healthy Life — Better Nutrition. Better Living.">
+  <meta name="description"
+    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
+  <meta name="keywords"
+    content="Healthy Life, fitness nutrition, whey protein, creatine, daily greens, Yashvardhan Singh Rathore, clean fitness, disciplined training">
+  <meta name="author" content="Yashvardhan Singh Rathore">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://healthylife.fitness/">
+  <meta property="og:title" content="Healthy Life — Better Nutrition. Better Living.">
+  <meta property="og:description"
+    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
+  <meta property="og:image" content="assets/whey-chocolate.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Healthy Life — Better Nutrition. Better Living.">
+  <meta property="twitter:description"
+    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
+  <meta property="twitter:image" content="assets/whey-chocolate.jpg">
+
+  <!-- Favicon / Theme -->
+  <meta name="theme-color" content="#FBFBF9">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23111315'/><circle cx='50' cy='50' r='18' fill='%232D6A4F'/></svg>">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       STICKY NAVBAR
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Healthy Life Home">
+        <span>HEALTHY LIFE</span>
+        <span class="brand-dot" aria-hidden="true"></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#philosophy" class="nav-link">Philosophy</a>
+        <a href="#founder" class="nav-link">Founder</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <!-- Palette Theme Switcher -->
+        <div class="theme-switch-control" role="group" aria-label="Color Palette Theme">
+          <button class="theme-pill-btn active" data-set-theme="sandstone" title="Architectural Stone Theme"
+            aria-pressed="true">
+            <span class="palette-indicator sandstone-color"></span>
+            <span class="palette-name">Stone</span>
+          </button>
+          <button class="theme-pill-btn" data-set-theme="obsidian" title="Stealth Obsidian Theme" aria-pressed="false">
+            <span class="palette-indicator obsidian-color"></span>
+            <span class="palette-name">Stealth</span>
+          </button>
+          <button class="theme-pill-btn" data-set-theme="frost" title="Chalk Frost Theme" aria-pressed="false">
+            <span class="palette-indicator frost-color"></span>
+            <span class="palette-name">Chalk</span>
+          </button>
+        </div>
+
+        <a href="#products" class="btn btn-primary btn-sm btn-desktop">Explore Range</a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Backdrop -->
+  <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2rem;">
+        <span>HEALTHY LIFE</span>
+        <span class="brand-dot"></span>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#products" class="mobile-nav-link">Products</a>
+        <a href="#philosophy" class="mobile-nav-link">Philosophy</a>
+        <a href="#founder" class="mobile-nav-link">Founder</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div style="margin-top: 2rem;">
+        <span
+          style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); display: block; margin-bottom: 0.6rem;">Palette
+          Theme</span>
+        <div class="theme-switch-control" style="width: fit-content;" role="group"
+          aria-label="Color Palette Theme Mobile">
+          <button class="theme-pill-btn active" data-set-theme="sandstone">
+            <span class="palette-indicator sandstone-color"></span>
+            <span>Stone</span>
+          </button>
+          <button class="theme-pill-btn" data-set-theme="obsidian">
+            <span class="palette-indicator obsidian-color"></span>
+            <span>Stealth</span>
+          </button>
+          <button class="theme-pill-btn" data-set-theme="frost">
+            <span class="palette-indicator frost-color"></span>
+            <span>Chalk</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="#products" class="btn btn-primary mobile-drawer-cta" style="width: 100%; text-align: center;">Explore
+        Products</a>
+      <p style="font-size: 0.75rem; color: var(--text-tertiary); text-align: center; margin-top: 1.25rem;">
+        Concept Brand by Yashvardhan Singh Rathore
+      </p>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ======================================================================
+         HERO SECTION
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Hero Text -->
+          <div class="hero-content reveal">
+            <div class="hero-badge-wrap">
+              <span class="badge-tag">Modern Fitness Nutrition</span>
+            </div>
+
+            <h1 class="headline-hero hero-title">
+              BUILD A<br>HEALTHIER<br>LIFE.
+            </h1>
+
+            <p class="hero-supporting">
+              Clean nutrition. Consistent training. A better version of you.
+            </p>
+
+            <p class="hero-intro">
+              Healthy Life is a modern fitness nutrition brand built around simple products, better habits, and everyday
+              performance.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#products" class="btn btn-primary" id="cta-hero-products">
+                <span>Explore Products</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#founder" class="btn btn-secondary" id="cta-hero-founder">
+                <span>Meet Yashvardhan</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual Package -->
+          <div class="hero-visual-wrapper reveal delay-2">
+            <div class="hero-visual-card">
+              <img src="assets/whey-chocolate.jpg" alt="Healthy Life Whey Protein Chocolate Edition Packaging"
+                class="hero-product-img" width="600" height="600" loading="eager">
+
+              <!-- Floating Metric Badges -->
+              <div class="floating-metric top-right" aria-hidden="true">
+                <div class="metric-icon">⚡</div>
+                <div class="metric-text">
+                  <span class="metric-title">25g Isolate Blend</span>
+                  <span class="metric-sub">Pure Protein</span>
+                </div>
+              </div>
+
+              <div class="floating-metric bottom-left" aria-hidden="true">
+                <div class="metric-icon">🌿</div>
+                <div class="metric-text">
+                  <span class="metric-title">0g Added Sugar</span>
+                  <span class="metric-sub">Clean Formula</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         BRAND INTRODUCTION / PHILOSOPHY
+         ====================================================================== -->
+    <section class="brand-intro-section section-spacing" id="about">
+      <div class="container intro-container section-spacing-sm">
+        <div class="intro-content">
+          <div class="section-label reveal">Brand Philosophy</div>
+
+          <h2 class="intro-statement reveal delay-1">
+            FITNESS ISN’T A PHASE.<br>
+            IT’S A WAY OF LIFE.
+          </h2>
+
+          <p class="intro-paragraph reveal delay-2">
+            Healthy Life is built for people who believe progress comes from consistency. From training harder to
+            choosing better nutrition, every small decision adds up.
+          </p>
+
+          <!-- Key Principles Highlights -->
+          <div class="intro-highlights reveal delay-3">
+            <div class="highlight-item">
+              <span class="highlight-num">100%</span>
+              <h3 class="highlight-title">Transparent Formulation</h3>
+              <p class="highlight-desc">No proprietary blends or hidden fillers. Clear labels you can trust.</p>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num">0</span>
+              <h3 class="highlight-title">Unnecessary Fluff</h3>
+              <p class="highlight-desc">Only science-aligned functional ingredients designed for daily routine.</p>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num">365</span>
+              <h3 class="highlight-title">Days of Discipline</h3>
+              <p class="highlight-desc">Building long-term fitness habits that integrate seamlessly into modern life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PRODUCT COLLECTION
+         ====================================================================== -->
+    <section class="products-section section-spacing" id="products">
+      <div class="container">
+
+        <!-- Section Header & Filter -->
+        <div class="section-header-wrap reveal">
+          <div class="section-label">Product Showcase</div>
+          <h2 class="headline-section">THE HEALTHY LIFE COLLECTION</h2>
+          <p class="paragraph-body" style="max-width: 620px; margin-top: 0.5rem;">
+            A curated lineup of essential fitness supplements crafted with minimalist principles, clean nutrition, and
+            everyday performance in mind.
+          </p>
+
+          <!-- Filter Pills -->
+          <div class="filter-bar" role="tablist" aria-label="Product categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Products</button>
+            <button class="filter-btn" data-filter="Protein" role="tab" aria-selected="false">Protein</button>
+            <button class="filter-btn" data-filter="Performance" role="tab" aria-selected="false">Performance</button>
+            <button class="filter-btn" data-filter="Wellness" role="tab" aria-selected="false">Wellness</button>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid">
+
+          <!-- Product 1: Chocolate Whey -->
+          <article class="product-card reveal" data-category="Protein">
+            <div class="product-image-box">
+              <span class="product-badge">Daily Essential</span>
+              <img src="assets/whey-chocolate.jpg" alt="Healthy Life Whey Protein Chocolate Edition"
+                class="product-image" loading="lazy">
+              <span class="product-flavor-badge">Chocolate</span>
+            </div>
+            <div class="product-content">
+              <span class="product-category">Protein</span>
+              <h3 class="product-title">Healthy Life Whey Protein</h3>
+              <p class="product-desc">A smooth, everyday protein designed to complement your training routine.</p>
+              <div class="product-footer">
+                <span class="product-price">₹2,499</span>
+                <button class="btn btn-secondary btn-sm" data-product-key="whey-chocolate"
+                  aria-label="Explore Healthy Life Whey Protein Chocolate">
+                  Explore →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: Vanilla Whey -->
+          <article class="product-card reveal delay-1" data-category="Protein">
+            <div class="product-image-box">
+              <span class="product-badge">Clean Nutrition</span>
+              <img src="assets/whey-vanilla.jpg" alt="Healthy Life Whey Protein Vanilla Blend" class="product-image"
+                loading="lazy">
+              <span class="product-flavor-badge">Vanilla</span>
+            </div>
+            <div class="product-content">
+              <span class="product-category">Protein</span>
+              <h3 class="product-title">Healthy Life Whey Protein</h3>
+              <p class="product-desc">Clean, simple nutrition for your everyday fitness journey.</p>
+              <div class="product-footer">
+                <span class="product-price">₹2,499</span>
+                <button class="btn btn-secondary btn-sm" data-product-key="whey-vanilla"
+                  aria-label="Explore Healthy Life Whey Protein Vanilla">
+                  Explore →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: Performance Creatine -->
+          <article class="product-card reveal delay-2" data-category="Performance">
+            <div class="product-image-box">
+              <span class="product-badge">Strength & Power</span>
+              <img src="assets/creatine.jpg" alt="Healthy Life Performance Creatine 300g" class="product-image"
+                loading="lazy">
+              <span class="product-flavor-badge">300g</span>
+            </div>
+            <div class="product-content">
+              <span class="product-category">Performance</span>
+              <h3 class="product-title">Healthy Life Performance Creatine</h3>
+              <p class="product-desc">A simple addition to a consistent strength and performance routine.</p>
+              <div class="product-footer">
+                <span class="product-price">₹1,299</span>
+                <button class="btn btn-secondary btn-sm" data-product-key="creatine"
+                  aria-label="Explore Healthy Life Performance Creatine">
+                  Explore →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4: Daily Greens -->
+          <article class="product-card reveal delay-3" data-category="Wellness">
+            <div class="product-image-box">
+              <span class="product-badge">Daily Micronutrients</span>
+              <img src="assets/greens.jpg" alt="Healthy Life Daily Greens Green Apple" class="product-image"
+                loading="lazy">
+              <span class="product-flavor-badge">Green Apple</span>
+            </div>
+            <div class="product-content">
+              <span class="product-category">Wellness</span>
+              <h3 class="product-title">Healthy Life Daily Greens</h3>
+              <p class="product-desc">A refreshing daily wellness blend designed for an active lifestyle.</p>
+              <div class="product-footer">
+                <span class="product-price">₹999</span>
+                <button class="btn btn-secondary btn-sm" data-product-key="greens"
+                  aria-label="Explore Healthy Life Daily Greens">
+                  Explore →
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Concept Notice Banner -->
+        <div class="concept-notice-banner reveal delay-2">
+          <div class="concept-notice-text">
+            <strong>Concept Design Notice:</strong> Healthy Life is a fictional concept brand created for demonstration
+            and design presentation. Products shown are not available for medical or commercial sale.
+          </div>
+          <span class="badge-tag"
+            style="background:var(--bg-tertiary); color:var(--text-secondary); border-color:var(--border-medium);">
+            Fictional Portfolio Concept
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         INTERACTIVE DAILY FUEL ESTIMATOR WIDGET
+         ====================================================================== -->
+    <section class="calculator-section section-spacing-sm">
+      <div class="container">
+        <div class="calc-box reveal">
+          <div class="calc-intro">
+            <div class="section-label">Interactive Tool</div>
+            <h3 class="headline-section" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem);">
+              DAILY ROUTINE ESTIMATOR
+            </h3>
+            <p class="paragraph-body">
+              Estimate your daily protein and hydration targets based on your body weight and training dedication.
+            </p>
+            <div class="calc-inputs" style="margin-top: 1rem;">
+              <div class="calc-group">
+                <label for="calc-weight" class="calc-label">
+                  Your Body Weight: <span id="calc-weight-val">70 kg</span>
+                </label>
+                <input type="range" id="calc-weight" class="calc-slider" min="45" max="120" value="70" step="1">
+              </div>
+
+              <div class="calc-group">
+                <span class="calc-label">Training Routine Intensity:</span>
+                <div class="calc-pills">
+                  <button type="button" class="calc-pill-btn" data-multiplier="1.4">Moderate (2-3x/wk)</button>
+                  <button type="button" class="calc-pill-btn active" data-multiplier="1.8">Active (4-5x/wk)</button>
+                  <button type="button" class="calc-pill-btn" data-multiplier="2.2">Intense (6x/wk)</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Result Card -->
+          <div class="calc-result-card">
+            <div>
+              <span class="metric-sub" style="color:var(--text-tertiary);">Estimated Target</span>
+              <div class="result-metric-large" id="calc-protein-res">126g</div>
+              <span style="font-size: 0.875rem; color: var(--text-secondary); font-weight: 500;">Daily Protein Intake
+                Goal</span>
+            </div>
+
+            <div
+              style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; padding-top:1rem; border-top:1px solid var(--border-subtle);">
+              <div>
+                <span class="metric-sub">Hydration</span>
+                <div style="font-family:var(--font-display); font-size:1.4rem; font-weight:700;" id="calc-water-res">
+                  2.8L</div>
+                <span style="font-size:0.75rem; color:var(--text-tertiary);">Water / day</span>
+              </div>
+              <div>
+                <span class="metric-sub">Healthy Life Whey</span>
+                <div style="font-family:var(--font-display); font-size:1.4rem; font-weight:700;" id="calc-scoops-res">1
+                  Scoop/day</div>
+                <span style="font-size:0.75rem; color:var(--text-tertiary);">Post-workout boost</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         WHY HEALTHY LIFE (4 CORE PRINCIPLES)
+         ====================================================================== -->
+    <section class="why-section section-spacing" id="philosophy">
+      <div class="container">
+
+        <div class="reveal">
+          <div class="section-label">Our Principles</div>
+          <h2 class="headline-section">WHY HEALTHY LIFE?</h2>
+          <p class="paragraph-body" style="max-width: 580px; margin-top: 0.5rem;">
+            Built on timeless foundations of physical self-improvement, honesty, and sustainable consistency.
+          </p>
+        </div>
+
+        <div class="principles-grid">
+
+          <!-- Principle 01 -->
+          <div class="principle-card reveal">
+            <div class="principle-top">
+              <span class="principle-number">01</span>
+              <h3 class="principle-title">SIMPLICITY</h3>
+            </div>
+            <p class="principle-quote">“Nutrition should be easy to understand.”</p>
+          </div>
+
+          <!-- Principle 02 -->
+          <div class="principle-card reveal delay-1">
+            <div class="principle-top">
+              <span class="principle-number">02</span>
+              <h3 class="principle-title">CONSISTENCY</h3>
+            </div>
+            <p class="principle-quote">“Real progress starts with showing up.”</p>
+          </div>
+
+          <!-- Principle 03 -->
+          <div class="principle-card reveal delay-2">
+            <div class="principle-top">
+              <span class="principle-number">03</span>
+              <h3 class="principle-title">PERFORMANCE</h3>
+            </div>
+            <p class="principle-quote">“Fuel the work you put in.”</p>
+          </div>
+
+          <!-- Principle 04 -->
+          <div class="principle-card reveal delay-3">
+            <div class="principle-top">
+              <span class="principle-number">04</span>
+              <h3 class="principle-title">LIFESTYLE</h3>
+            </div>
+            <p class="principle-quote">“Fitness belongs in everyday life.”</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         MEET YASHVARDHAN (FOUNDER SECTION)
+         ====================================================================== -->
+    <section class="founder-section section-spacing" id="founder">
+      <div class="container">
+        <div class="founder-grid">
+
+          <!-- Founder Image / Visual Treatment -->
+          <div class="founder-visual-wrap reveal">
+            <div class="founder-image-container">
+              <img src="assets/founder-yashvardhan.jpg" alt="Yashvardhan Singh Rathore — Founder of Healthy Life"
+                class="founder-img" loading="lazy">
+            </div>
+            <div class="founder-ethos-badge">
+              <p>“Train with purpose.<br>Live with discipline.”</p>
+            </div>
+          </div>
+
+          <!-- Founder Story -->
+          <div class="founder-content reveal delay-1">
+            <div class="section-label">Founder & Vision</div>
+
+            <h2 class="headline-section">MEET YASHVARDHAN</h2>
+
+            <p class="founder-narrative">
+              “Hi, I’m Yashvardhan Singh Rathore, a 19-year-old student currently in my third year. Fitness and training
+              have become an important part of my life, and Healthy Life is my vision for a brand that makes fitness
+              nutrition feel simple, modern, and accessible.”
+            </p>
+
+            <!-- Identity Stat Highlights -->
+            <div class="founder-identity-card">
+              <div class="identity-stat">
+                <span class="identity-stat-label">Founder</span>
+                <span class="identity-stat-val">Yashvardhan</span>
+              </div>
+              <div class="identity-stat">
+                <span class="identity-stat-label">Background</span>
+                <span class="identity-stat-val">19 Yrs • 3rd Year</span>
+              </div>
+              <div class="identity-stat">
+                <span class="identity-stat-label">Focus</span>
+                <span class="identity-stat-val">Fitness & Nutrition</span>
+              </div>
+            </div>
+
+            <!-- Ethos Block -->
+            <div class="founder-motto">
+              <p class="founder-motto-text">
+                Train with purpose.<br>
+                Live with discipline.
+              </p>
+            </div>
+
+            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:0.5rem;">
+              <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+              <a href="mailto:yash345fd@gmail.com" class="btn btn-secondary btn-sm">Email Yashvardhan</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FITNESS QUOTE SECTION
+         ====================================================================== -->
+    <section class="quote-section section-spacing">
+      <div class="container container-narrow">
+        <div class="quote-box reveal">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <blockquote class="quote-text">
+            Your body can stand almost anything.<br>
+            It’s your mind you have to convince.
+          </blockquote>
+          <div class="quote-author">— Mindset & Discipline</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FINAL BRAND STATEMENT
+         ====================================================================== -->
+    <section class="brand-statement-section section-spacing">
+      <div class="dark-glow-orb" aria-hidden="true"></div>
+      <div class="container">
+        <div class="brand-statement-wrap reveal">
+          <h2 class="closing-manifesto">
+            <span>LIVE HEALTHY.</span>
+            <span>TRAIN HARD.</span>
+            <span class="text-accent">STAY CONSISTENT.</span>
+          </h2>
+          <div class="giant-brand-title">
+            HEALTHY LIFE
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION
+         ====================================================================== -->
+    <section class="contact-section section-spacing" id="contact">
+      <div class="container">
+        <div class="contact-card-box reveal">
+
+          <!-- Contact Details -->
+          <div class="contact-info">
+            <div class="section-label">Connect</div>
+            <h2 class="headline-section">LET’S BUILD A HEALTHIER LIFE.</h2>
+            <p class="paragraph-body">
+              For questions, collaborations, or simply to say hello.
+            </p>
+
+            <div class="contact-email-box">
+              <a href="mailto:yash345fd@gmail.com" class="email-pill" id="direct-email-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>yash345fd@gmail.com</span>
+              </a>
+
+              <button type="button" class="copy-email-btn" title="Copy email address"
+                aria-label="Copy email address to clipboard">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div style="margin-top: 1rem;">
+              <a href="mailto:yash345fd@gmail.com" class="btn btn-primary" id="btn-contact-main">
+                <span>Contact Me →</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <form class="quick-message-form" id="quick-contact-form">
+            <h3 style="font-family:var(--font-display); font-size:1.25rem; font-weight:700;">Send a Quick Note</h3>
+
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Your Message or Question</label>
+              <textarea id="contact-message" class="form-textarea"
+                placeholder="Hi Yashvardhan, I wanted to reach out regarding..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-accent btn-sm" style="width:100%;">
+              Send Note to Yashvardhan →
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-logo">
+            <span>HEALTHY LIFE</span>
+            <span class="brand-dot"></span>
+          </a>
+          <p class="footer-tagline">
+            A modern fitness nutrition brand built around simple products, better habits, and everyday performance.
+          </p>
+          <div class="badge-tag" style="align-self: flex-start; margin-top: 0.5rem;">
+            Founded by Yashvardhan Singh Rathore
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div>
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-links-list">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About Philosophy</a></li>
+              <li><a href="#products">The Collection</a></li>
+              <li><a href="#philosophy">Why Healthy Life</a></li>
+              <li><a href="#founder">Founder</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Products</h4>
+            <ul class="footer-links-list">
+              <li><a href="#products">Whey Protein (6 Flavors)</a></li>
+              <li><a href="#products">Performance Creatine</a></li>
+              <li><a href="#products">Daily Multivitamins</a></li>
+              <li><a href="#products">Omega-3 Fish Oil</a></li>
+              <li><a href="#products">Daily Greens</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Connect</h4>
+            <ul class="footer-links-list">
+              <li><a href="mailto:yash345fd@gmail.com">yash345fd@gmail.com</a></li>
+              <li><a href="#contact">Contact Form</a></li>
+              <li><a href="#founder">Meet Yashvardhan</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2026 HEALTHY LIFE. Concept Fitness Brand by Yashvardhan Singh Rathore. All rights reserved.
+        </p>
+        <span class="footer-disclaimer-pill">
+          Fictional Concept Website • No Actual Products Sold
+        </span>
+        <a href="#hero" class="back-to-top-btn" aria-label="Back to top of page">
+          <span>Back to top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       PRODUCT QUICK VIEW MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close Product Modal">✕</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img id="modal-img" src="assets/whey-chocolate.jpg" alt="Product detail image">
+        </div>
+        <div class="modal-body">
+          <span class="badge-tag modal-badge" id="modal-category">Protein</span>
+          <h3 class="modal-title" id="modal-title">Healthy Life Whey Protein</h3>
+          <span style="font-size:0.9rem; color:var(--text-tertiary); margin-top:-0.75rem;" id="modal-subtitle">Rich
+            Chocolate</span>
+          <div class="modal-price" id="modal-price">₹2,499</div>
+
+          <p class="paragraph-body" id="modal-desc" style="font-size: 0.95rem;">
+            A smooth, everyday protein designed to complement your training routine.
+          </p>
+
+          <div class="modal-facts-grid" id="modal-facts">
+            <!-- Facts injected via JS -->
+          </div>
+
+          <div style="margin-top: 0.5rem;">
+            <h4
+              style="font-size:0.8125rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-primary); margin-bottom:0.6rem;">
+              Product Formulation Highlights:
+            </h4>
+            <ul id="modal-details-list">
+              <!-- Details injected via JS -->
+            </ul>
+          </div>
+
+          <div style="margin-top: 1rem; display:flex; gap:0.75rem;">
+            <a href="mailto:yash345fd@gmail.com?subject=Inquiry%20about%20Healthy%20Life%20Collection"
+              class="btn btn-primary btn-sm" style="flex:1;">
+              Inquire / Connect
+            </a>
+            <button class="btn btn-secondary btn-sm modal-close-action"
+              onclick="document.getElementById('product-modal').classList.remove('open'); document.body.style.overflow=''">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2D6A4F" stroke-width="3" stroke-linecap="round"
+      stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-msg">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="main.js"></script>
+</body>
+
+</html>
