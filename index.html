@@ -1,42 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary SEO Meta Tags -->
-  <title>Healthy Life — Better Nutrition. Better Living.</title>
-  <meta name="title" content="Healthy Life — Better Nutrition. Better Living.">
+  <title>HEALTHY LIFE — Your Fitness Goals, Within Your Budget</title>
+  <meta name="title" content="HEALTHY LIFE — Your Fitness Goals, Within Your Budget">
   <meta name="description"
-    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
+    content="HEALTHY LIFE is a college-level fitness platform helping gym beginners and students build personalized diet and workout plans based on their fitness goals and daily food budget.">
   <meta name="keywords"
-    content="Healthy Life, fitness nutrition, whey protein, creatine, daily greens, Yashvardhan Singh Rathore, clean fitness, disciplined training">
+    content="Healthy Life, budget fitness, student diet plan, cheap bodybuilding diet, Indian fitness food, beginner workout plan, Yashvardhan Singh Rathore, affordable gym nutrition">
   <meta name="author" content="Yashvardhan Singh Rathore">
 
-  <!-- Open Graph / Facebook -->
+  <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://healthylife.fitness/">
-  <meta property="og:title" content="Healthy Life — Better Nutrition. Better Living.">
+  <meta property="og:title" content="HEALTHY LIFE — Your Fitness Goals, Within Your Budget">
   <meta property="og:description"
-    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
-  <meta property="og:image" content="assets/whey-chocolate.jpg">
+    content="Build a personalized diet and workout plan that fits your fitness goals and daily food budget. Eat Smart. Train Smart. Live Healthy.">
+  <meta property="og:image" content="assets/founder-ethos.jpg">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="Healthy Life — Better Nutrition. Better Living.">
-  <meta property="twitter:description"
-    content="Healthy Life is a modern fitness nutrition concept built around better habits, consistent training, and a healthier lifestyle.">
-  <meta property="twitter:image" content="assets/whey-chocolate.jpg">
-
-  <!-- Favicon / Theme -->
-  <meta name="theme-color" content="#FBFBF9">
+  <!-- Favicon / Brand Theme -->
+  <meta name="theme-color" content="#0B0F17">
   <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23111315'/><circle cx='50' cy='50' r='18' fill='%232D6A4F'/></svg>">
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%230B0F17'/><circle cx='50' cy='50' r='36' fill='none' stroke='%2310B981' stroke-width='8'/><path d='M35 52 L45 62 L65 38' fill='none' stroke='%2310B981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 
-  <!-- Google Fonts Preconnect -->
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Master Stylesheet -->
   <link rel="stylesheet" href="styles.css">
@@ -45,46 +40,67 @@
 <body>
 
   <!-- ========================================================================
-       STICKY NAVBAR
+       STICKY NAVIGATION BAR
        ======================================================================== -->
   <header class="site-header" id="site-header">
     <div class="container header-container">
-      <!-- Logo -->
-      <a href="#hero" class="brand-logo" aria-label="Healthy Life Home">
-        <span>HEALTHY LIFE</span>
-        <span class="brand-dot" aria-hidden="true"></span>
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="HEALTHY LIFE Home">
+        <div class="logo-mark">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">HEALTHY LIFE</span>
+          <span class="logo-badge">GOAL + NUTRITION + BUDGET</span>
+        </div>
       </a>
 
-      <!-- Desktop Navigation -->
+      <!-- Desktop Navigation Links -->
       <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
         <a href="#about" class="nav-link">About</a>
-        <a href="#products" class="nav-link">Products</a>
-        <a href="#philosophy" class="nav-link">Philosophy</a>
-        <a href="#founder" class="nav-link">Founder</a>
+        <a href="#create-plan" class="nav-link">Create Plan</a>
+        <a href="#diet-plan" class="nav-link">Diet</a>
+        <a href="#workout-plan" class="nav-link">Workout</a>
+        <a href="#food-options" class="nav-link">Food</a>
+        <a href="#progress-dashboard" class="nav-link">Progress</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
-      <!-- Actions -->
+      <!-- Header Actions -->
       <div class="nav-actions">
-        <!-- Palette Theme Switcher -->
-        <div class="theme-switch-control" role="group" aria-label="Color Palette Theme">
-          <button class="theme-pill-btn active" data-set-theme="sandstone" title="Architectural Stone Theme"
-            aria-pressed="true">
-            <span class="palette-indicator sandstone-color"></span>
-            <span class="palette-name">Stone</span>
-          </button>
-          <button class="theme-pill-btn" data-set-theme="obsidian" title="Stealth Obsidian Theme" aria-pressed="false">
-            <span class="palette-indicator obsidian-color"></span>
-            <span class="palette-name">Stealth</span>
-          </button>
-          <button class="theme-pill-btn" data-set-theme="frost" title="Chalk Frost Theme" aria-pressed="false">
-            <span class="palette-indicator frost-color"></span>
-            <span class="palette-name">Chalk</span>
-          </button>
-        </div>
+        <!-- Theme Toggle (Dark/Light) -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Color Theme" title="Toggle Theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
 
-        <a href="#products" class="btn btn-primary btn-sm btn-desktop">Explore Range</a>
-        <button class="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <!-- Primary CTA -->
+        <a href="#create-plan" class="btn btn-primary btn-sm btn-desktop">
+          <span>Create My Plan</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobile-menu-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
@@ -94,113 +110,185 @@
   </header>
 
   <!-- Mobile Drawer & Backdrop -->
-  <div class="mobile-nav-backdrop" aria-hidden="true"></div>
-  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
-    <div>
-      <div class="brand-logo" style="margin-bottom: 2rem;">
-        <span>HEALTHY LIFE</span>
-        <span class="brand-dot"></span>
-      </div>
-      <nav class="mobile-nav-links">
-        <a href="#about" class="mobile-nav-link">About</a>
-        <a href="#products" class="mobile-nav-link">Products</a>
-        <a href="#philosophy" class="mobile-nav-link">Philosophy</a>
-        <a href="#founder" class="mobile-nav-link">Founder</a>
-        <a href="#contact" class="mobile-nav-link">Contact</a>
-      </nav>
-      <div style="margin-top: 2rem;">
-        <span
-          style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); display: block; margin-bottom: 0.6rem;">Palette
-          Theme</span>
-        <div class="theme-switch-control" style="width: fit-content;" role="group"
-          aria-label="Color Palette Theme Mobile">
-          <button class="theme-pill-btn active" data-set-theme="sandstone">
-            <span class="palette-indicator sandstone-color"></span>
-            <span>Stone</span>
-          </button>
-          <button class="theme-pill-btn" data-set-theme="obsidian">
-            <span class="palette-indicator obsidian-color"></span>
-            <span>Stealth</span>
-          </button>
-          <button class="theme-pill-btn" data-set-theme="frost">
-            <span class="palette-indicator frost-color"></span>
-            <span>Chalk</span>
-          </button>
+  <div class="mobile-nav-backdrop" id="mobile-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="logo-mark">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
         </div>
+        <span class="logo-title">HEALTHY LIFE</span>
       </div>
+      <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Close Menu">✕</button>
     </div>
-    <div>
-      <a href="#products" class="btn btn-primary mobile-drawer-cta" style="width: 100%; text-align: center;">Explore
-        Products</a>
-      <p style="font-size: 0.75rem; color: var(--text-tertiary); text-align: center; margin-top: 1.25rem;">
-        Concept Brand by Yashvardhan Singh Rathore
-      </p>
+
+    <nav class="mobile-nav-links">
+      <a href="#hero" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#how-it-works" class="mobile-nav-link">How It Works</a>
+      <a href="#create-plan" class="mobile-nav-link">Create Plan</a>
+      <a href="#diet-plan" class="mobile-nav-link">Diet Plan</a>
+      <a href="#workout-plan" class="mobile-nav-link">Workout Plan</a>
+      <a href="#food-options" class="mobile-nav-link">Food Database</a>
+      <a href="#progress-dashboard" class="mobile-nav-link">Progress Dashboard</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+
+    <div class="drawer-footer">
+      <a href="#create-plan" class="btn btn-primary btn-block mobile-drawer-cta">
+        <span>Create My Plan</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+      <p class="drawer-brand-note">“Your Fitness Goals, Within Your Budget.”</p>
     </div>
   </aside>
 
+  <!-- ========================================================================
+       MAIN CONTENT
+       ======================================================================== -->
   <main id="main-content">
 
     <!-- ======================================================================
-         HERO SECTION
+         1. HERO SECTION (HOME)
          ====================================================================== -->
     <section class="hero-section" id="hero">
-      <div class="container">
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
         <div class="hero-grid">
 
-          <!-- Hero Text -->
-          <div class="hero-content reveal">
-            <div class="hero-badge-wrap">
-              <span class="badge-tag">Modern Fitness Nutrition</span>
+          <!-- Left Column: Hero Typography & CTAs -->
+          <div class="hero-content">
+            <div class="hero-pill-badge">
+              <span class="pulse-dot"></span>
+              <span class="badge-text">Eat Smart. Train Smart. Live Healthy.</span>
             </div>
 
-            <h1 class="headline-hero hero-title">
-              BUILD A<br>HEALTHIER<br>LIFE.
+            <h1 class="hero-headline">
+              Your Fitness Goals,<br>
+              <span class="text-gradient">Within Your Budget.</span>
             </h1>
 
-            <p class="hero-supporting">
-              Clean nutrition. Consistent training. A better version of you.
+            <p class="hero-subtext">
+              Build a personalized diet and workout plan that fits your fitness goals and your daily food budget.
             </p>
 
-            <p class="hero-intro">
-              Healthy Life is a modern fitness nutrition brand built around simple products, better habits, and everyday
-              performance.
-            </p>
-
-            <div class="hero-ctas">
-              <a href="#products" class="btn btn-primary" id="cta-hero-products">
-                <span>Explore Products</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <div class="hero-cta-group">
+              <a href="#create-plan" class="btn btn-primary btn-lg" id="hero-create-btn">
+                <span>Create My Plan</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                   <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
               </a>
-              <a href="#founder" class="btn btn-secondary" id="cta-hero-founder">
-                <span>Meet Yashvardhan</span>
+              <a href="#how-it-works" class="btn btn-secondary btn-lg" id="hero-how-btn">
+                <span>How It Works</span>
               </a>
             </div>
+
+            <!-- Quick Trust Metrics -->
+            <div class="hero-metrics-row">
+              <div class="hero-metric-item">
+                <span class="metric-val">₹150+</span>
+                <span class="metric-lbl">Daily Budget Plans</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="hero-metric-item">
+                <span class="metric-val">100%</span>
+                <span class="metric-lbl">Beginner Tailored</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="hero-metric-item">
+                <span class="metric-val">0</span>
+                <span class="metric-lbl">Expensive Myths</span>
+              </div>
+            </div>
           </div>
 
-          <!-- Hero Visual Package -->
-          <div class="hero-visual-wrapper reveal delay-2">
-            <div class="hero-visual-card">
-              <img src="assets/whey-chocolate.jpg" alt="Healthy Life Whey Protein Chocolate Edition Packaging"
-                class="hero-product-img" width="600" height="600" loading="eager">
+          <!-- Right Column: Interactive Fitness Dashboard Preview Card -->
+          <div class="hero-visual-col">
+            <div class="apple-glass-card hero-preview-card">
+              <div class="preview-header">
+                <div class="preview-user-info">
+                  <div class="user-avatar-dot">YL</div>
+                  <div>
+                    <span class="preview-title">Student Fitness Plan</span>
+                    <span class="preview-tag">Goal: Muscle Gain</span>
+                  </div>
+                </div>
+                <div class="badge-status-green">Active Plan</div>
+              </div>
 
-              <!-- Floating Metric Badges -->
-              <div class="floating-metric top-right" aria-hidden="true">
-                <div class="metric-icon">⚡</div>
-                <div class="metric-text">
-                  <span class="metric-title">25g Isolate Blend</span>
-                  <span class="metric-sub">Pure Protein</span>
+              <!-- Live Macro & Budget Rings -->
+              <div class="preview-rings-wrapper">
+                <div class="apple-rings-container">
+                  <svg class="apple-ring-svg" viewBox="0 0 120 120">
+                    <!-- Outer Ring: Calories -->
+                    <circle cx="60" cy="60" r="50" class="ring-bg ring-cal-bg"></circle>
+                    <circle cx="60" cy="60" r="50" class="ring-fg ring-cal-fg" style="stroke-dasharray: 314; stroke-dashoffset: 65;"></circle>
+                    <!-- Middle Ring: Protein -->
+                    <circle cx="60" cy="60" r="38" class="ring-bg ring-pro-bg"></circle>
+                    <circle cx="60" cy="60" r="38" class="ring-fg ring-pro-fg" style="stroke-dasharray: 238; stroke-dashoffset: 40;"></circle>
+                    <!-- Inner Ring: Budget -->
+                    <circle cx="60" cy="60" r="26" class="ring-bg ring-bud-bg"></circle>
+                    <circle cx="60" cy="60" r="26" class="ring-fg ring-bud-fg" style="stroke-dasharray: 163; stroke-dashoffset: 20;"></circle>
+                  </svg>
+                  <div class="ring-center-stat">
+                    <span class="ring-stat-num">90%</span>
+                    <span class="ring-stat-lbl">Budget Spent</span>
+                  </div>
+                </div>
+
+                <div class="ring-legend-list">
+                  <div class="legend-item">
+                    <span class="legend-dot dot-cal"></span>
+                    <div class="legend-text">
+                      <span class="legend-val">2,400 kcal</span>
+                      <span class="legend-name">Daily Target</span>
+                    </div>
+                  </div>
+                  <div class="legend-item">
+                    <span class="legend-dot dot-pro"></span>
+                    <div class="legend-text">
+                      <span class="legend-val">120g Protein</span>
+                      <span class="legend-name">High Satiety</span>
+                    </div>
+                  </div>
+                  <div class="legend-item">
+                    <span class="legend-dot dot-bud"></span>
+                    <div class="legend-text">
+                      <span class="legend-val">₹225 / ₹250</span>
+                      <span class="legend-name">₹25 Saved Today</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="floating-metric bottom-left" aria-hidden="true">
-                <div class="metric-icon">🌿</div>
-                <div class="metric-text">
-                  <span class="metric-title">0g Added Sugar</span>
-                  <span class="metric-sub">Clean Formula</span>
+              <!-- Sample Interactive Meal Teaser -->
+              <div class="preview-meal-teaser">
+                <div class="teaser-meal-header">
+                  <div class="meal-time-badge">🍳 Breakfast • ₹55</div>
+                  <span class="meal-macro-pill">32g Protein</span>
+                </div>
+                <div class="teaser-items">
+                  <span>3 Boiled Eggs</span> • <span>2 Whole Wheat Rotis</span> • <span>1 Glass Milk (250ml)</span>
+                </div>
+                <div class="teaser-footer">
+                  <span class="cost-efficiency-tag">⚡ 5.8g Protein / ₹10</span>
+                  <a href="#create-plan" class="teaser-link">Customize Your Own →</a>
+                </div>
+              </div>
+
+              <!-- Floating Micro-Badge -->
+              <div class="floating-badge hero-float-badge">
+                <span class="float-icon">💡</span>
+                <div>
+                  <strong>Soy Chunks & Eggs</strong>
+                  <p>Maximum protein, minimum cost</p>
                 </div>
               </div>
             </div>
@@ -211,597 +299,1389 @@
     </section>
 
     <!-- ======================================================================
-         BRAND INTRODUCTION / PHILOSOPHY
+         THREE MAIN BENEFITS SECTION
          ====================================================================== -->
-    <section class="brand-intro-section section-spacing" id="about">
-      <div class="container intro-container section-spacing-sm">
-        <div class="intro-content">
-          <div class="section-label reveal">Brand Philosophy</div>
-
-          <h2 class="intro-statement reveal delay-1">
-            FITNESS ISN’T A PHASE.<br>
-            IT’S A WAY OF LIFE.
-          </h2>
-
-          <p class="intro-paragraph reveal delay-2">
-            Healthy Life is built for people who believe progress comes from consistency. From training harder to
-            choosing better nutrition, every small decision adds up.
-          </p>
-
-          <!-- Key Principles Highlights -->
-          <div class="intro-highlights reveal delay-3">
-            <div class="highlight-item">
-              <span class="highlight-num">100%</span>
-              <h3 class="highlight-title">Transparent Formulation</h3>
-              <p class="highlight-desc">No proprietary blends or hidden fillers. Clear labels you can trust.</p>
-            </div>
-            <div class="highlight-item">
-              <span class="highlight-num">0</span>
-              <h3 class="highlight-title">Unnecessary Fluff</h3>
-              <p class="highlight-desc">Only science-aligned functional ingredients designed for daily routine.</p>
-            </div>
-            <div class="highlight-item">
-              <span class="highlight-num">365</span>
-              <h3 class="highlight-title">Days of Discipline</h3>
-              <p class="highlight-desc">Building long-term fitness habits that integrate seamlessly into modern life.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         PRODUCT COLLECTION
-         ====================================================================== -->
-    <section class="products-section section-spacing" id="products">
+    <section class="benefits-section section-spacing-sm">
       <div class="container">
+        <div class="benefits-grid">
 
-        <!-- Section Header & Filter -->
-        <div class="section-header-wrap reveal">
-          <div class="section-label">Product Showcase</div>
-          <h2 class="headline-section">THE HEALTHY LIFE COLLECTION</h2>
-          <p class="paragraph-body" style="max-width: 620px; margin-top: 0.5rem;">
-            A curated lineup of essential fitness supplements crafted with minimalist principles, clean nutrition, and
-            everyday performance in mind.
-          </p>
-
-          <!-- Filter Pills -->
-          <div class="filter-bar" role="tablist" aria-label="Product categories">
-            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Products</button>
-            <button class="filter-btn" data-filter="Protein" role="tab" aria-selected="false">Protein</button>
-            <button class="filter-btn" data-filter="Performance" role="tab" aria-selected="false">Performance</button>
-            <button class="filter-btn" data-filter="Wellness" role="tab" aria-selected="false">Wellness</button>
-          </div>
-        </div>
-
-        <!-- Products Grid -->
-        <div class="products-grid">
-
-          <!-- Product 1: Chocolate Whey -->
-          <article class="product-card reveal" data-category="Protein">
-            <div class="product-image-box">
-              <span class="product-badge">Daily Essential</span>
-              <img src="assets/whey-chocolate.jpg" alt="Healthy Life Whey Protein Chocolate Edition"
-                class="product-image" loading="lazy">
-              <span class="product-flavor-badge">Chocolate</span>
+          <!-- Benefit 1: Personalized -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box icon-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
             </div>
-            <div class="product-content">
-              <span class="product-category">Protein</span>
-              <h3 class="product-title">Healthy Life Whey Protein</h3>
-              <p class="product-desc">A smooth, everyday protein designed to complement your training routine.</p>
-              <div class="product-footer">
-                <span class="product-price">₹2,499</span>
-                <button class="btn btn-secondary btn-sm" data-product-key="whey-chocolate"
-                  aria-label="Explore Healthy Life Whey Protein Chocolate">
-                  Explore →
-                </button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Product 2: Vanilla Whey -->
-          <article class="product-card reveal delay-1" data-category="Protein">
-            <div class="product-image-box">
-              <span class="product-badge">Clean Nutrition</span>
-              <img src="assets/whey-vanilla.jpg" alt="Healthy Life Whey Protein Vanilla Blend" class="product-image"
-                loading="lazy">
-              <span class="product-flavor-badge">Vanilla</span>
-            </div>
-            <div class="product-content">
-              <span class="product-category">Protein</span>
-              <h3 class="product-title">Healthy Life Whey Protein</h3>
-              <p class="product-desc">Clean, simple nutrition for your everyday fitness journey.</p>
-              <div class="product-footer">
-                <span class="product-price">₹2,499</span>
-                <button class="btn btn-secondary btn-sm" data-product-key="whey-vanilla"
-                  aria-label="Explore Healthy Life Whey Protein Vanilla">
-                  Explore →
-                </button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Product 3: Performance Creatine -->
-          <article class="product-card reveal delay-2" data-category="Performance">
-            <div class="product-image-box">
-              <span class="product-badge">Strength & Power</span>
-              <img src="assets/creatine.jpg" alt="Healthy Life Performance Creatine 300g" class="product-image"
-                loading="lazy">
-              <span class="product-flavor-badge">300g</span>
-            </div>
-            <div class="product-content">
-              <span class="product-category">Performance</span>
-              <h3 class="product-title">Healthy Life Performance Creatine</h3>
-              <p class="product-desc">A simple addition to a consistent strength and performance routine.</p>
-              <div class="product-footer">
-                <span class="product-price">₹1,299</span>
-                <button class="btn btn-secondary btn-sm" data-product-key="creatine"
-                  aria-label="Explore Healthy Life Performance Creatine">
-                  Explore →
-                </button>
-              </div>
-            </div>
-          </article>
-
-          <!-- Product 4: Daily Greens -->
-          <article class="product-card reveal delay-3" data-category="Wellness">
-            <div class="product-image-box">
-              <span class="product-badge">Daily Micronutrients</span>
-              <img src="assets/greens.jpg" alt="Healthy Life Daily Greens Green Apple" class="product-image"
-                loading="lazy">
-              <span class="product-flavor-badge">Green Apple</span>
-            </div>
-            <div class="product-content">
-              <span class="product-category">Wellness</span>
-              <h3 class="product-title">Healthy Life Daily Greens</h3>
-              <p class="product-desc">A refreshing daily wellness blend designed for an active lifestyle.</p>
-              <div class="product-footer">
-                <span class="product-price">₹999</span>
-                <button class="btn btn-secondary btn-sm" data-product-key="greens"
-                  aria-label="Explore Healthy Life Daily Greens">
-                  Explore →
-                </button>
-              </div>
-            </div>
-          </article>
-
-        </div>
-
-        <!-- Concept Notice Banner -->
-        <div class="concept-notice-banner reveal delay-2">
-          <div class="concept-notice-text">
-            <strong>Concept Design Notice:</strong> Healthy Life is a fictional concept brand created for demonstration
-            and design presentation. Products shown are not available for medical or commercial sale.
-          </div>
-          <span class="badge-tag"
-            style="background:var(--bg-tertiary); color:var(--text-secondary); border-color:var(--border-medium);">
-            Fictional Portfolio Concept
-          </span>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         INTERACTIVE DAILY FUEL ESTIMATOR WIDGET
-         ====================================================================== -->
-    <section class="calculator-section section-spacing-sm">
-      <div class="container">
-        <div class="calc-box reveal">
-          <div class="calc-intro">
-            <div class="section-label">Interactive Tool</div>
-            <h3 class="headline-section" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem);">
-              DAILY ROUTINE ESTIMATOR
-            </h3>
-            <p class="paragraph-body">
-              Estimate your daily protein and hydration targets based on your body weight and training dedication.
+            <h3 class="benefit-title">Personalized</h3>
+            <p class="benefit-desc">
+              Plans built strictly around your age, body metrics, experience level, dietary preferences, and workout environment.
             </p>
-            <div class="calc-inputs" style="margin-top: 1rem;">
-              <div class="calc-group">
-                <label for="calc-weight" class="calc-label">
-                  Your Body Weight: <span id="calc-weight-val">70 kg</span>
+            <div class="benefit-subtag">Calculated to your TDEE & Goals</div>
+          </div>
+
+          <!-- Benefit 2: Budget-Friendly -->
+          <div class="benefit-card benefit-card-featured">
+            <div class="featured-ribbon">Core USP</div>
+            <div class="benefit-icon-box icon-green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Budget-Friendly</h3>
+            <p class="benefit-desc">
+              Build daily meals around your exact food budget (₹150–₹500/day). No expensive exotic ingredients or forced supplements.
+            </p>
+            <div class="benefit-subtag">Indian grocery staple optimization</div>
+          </div>
+
+          <!-- Benefit 3: Beginner-Friendly -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box icon-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Beginner-Friendly</h3>
+            <p class="benefit-desc">
+              Simple, sustainable workouts and nutrition guidance designed for college students and people starting day one in the gym.
+            </p>
+            <div class="benefit-subtag">Clear form cues & rest timer</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         HOW HEALTHY LIFE WORKS (4-STEP PROCESS)
+         ====================================================================== -->
+    <section class="how-it-works-section section-spacing" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Simple 4-Step Process</span>
+          <h2 class="section-headline">How HEALTHY LIFE Works</h2>
+          <p class="section-subtext">
+            From your daily pocket money to your first bench press — here is how we make fitness practical and achievable.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-num-badge">01</div>
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="8.5" cy="7" r="4"></circle>
+                <line x1="20" y1="8" x2="20" y2="14"></line>
+                <line x1="23" y1="11" x2="17" y2="11"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Enter Your Details</h3>
+            <p class="step-desc">
+              Provide your age, gender, height, weight, activity level, and gym experience.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-num-badge">02</div>
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="step-title">Set Your Goal</h3>
+            <p class="step-desc">
+              Choose between Muscle Gain, Fat Loss, or General Everyday Fitness.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-num-badge">03</div>
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <line x1="12" y1="8" x2="12" y2="16"></line>
+                <line x1="8" y1="12" x2="16" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Set Your Budget</h3>
+            <p class="step-desc">
+              Enter your maximum daily food budget in ₹ (e.g. ₹150, ₹200, ₹250, ₹300+).
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-num-badge">04</div>
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="step-title">Get Your Plan</h3>
+            <p class="step-desc">
+              Receive personalized meal blueprints, dynamic food alternatives, and beginner workout routines.
+            </p>
+          </div>
+        </div>
+
+        <div class="steps-action-wrap text-center">
+          <a href="#create-plan" class="btn btn-primary btn-lg">
+            <span>Start Step 1: Personal Details</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. ABOUT SECTION & PHILOSOPHY
+         ====================================================================== -->
+    <section class="about-section section-spacing" id="about">
+      <div class="container">
+        <div class="about-layout-grid">
+
+          <!-- Left Column: Story & Core Message -->
+          <div class="about-story-col">
+            <span class="section-badge">Why Healthy Life Exists</span>
+            <h2 class="about-main-quote">
+              “Fitness should not feel impossible just because you have a limited food budget.”
+            </h2>
+
+            <p class="about-lead-paragraph">
+              Most online fitness advice is disconnected from the reality of college students and beginners. Mainstream influencers promote imported protein powders, avocado toasts, and expensive gym supplements — creating a false assumption that building a great physique requires serious money.
+            </p>
+
+            <div class="about-problems-card">
+              <h4 class="problems-card-title">The 5 Big Problems We Solve:</h4>
+              <ul class="problems-list">
+                <li>
+                  <span class="problem-bullet">✕</span>
+                  <div>
+                    <strong>Healthy Food Myth:</strong> Nutritious food is perceived as costly, ignoring high-value staples like eggs, soy chunks, curd, and dal.
+                  </div>
+                </li>
+                <li>
+                  <span class="problem-bullet">✕</span>
+                  <div>
+                    <strong>Beginner Confusion:</strong> Beginners are paralyzed by conflicting internet advice and complex calorie formulas.
+                  </div>
+                </li>
+                <li>
+                  <span class="problem-bullet">✕</span>
+                  <div>
+                    <strong>Rigid Budgets:</strong> Students and young professionals have fixed daily food budgets that generic meal plans ignore.
+                  </div>
+                </li>
+                <li>
+                  <span class="problem-bullet">✕</span>
+                  <div>
+                    <strong>Random Workouts:</strong> Following extreme pro-bodybuilder splits leads to early fatigue, injury, and quitting.
+                  </div>
+                </li>
+                <li>
+                  <span class="problem-bullet">✕</span>
+                  <div>
+                    <strong>Disconnected Planning:</strong> Nutrition and workouts are treated separately instead of working in harmony with your budget.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Our Philosophy Equation & Principles -->
+          <div class="about-philosophy-col">
+            <div class="philosophy-formula-card">
+              <div class="formula-label">OUR CORE FORMULA</div>
+              <div class="formula-equation">
+                <div class="eq-term">
+                  <span class="eq-tag">GOAL</span>
+                  <span class="eq-sub">Clear Target</span>
+                </div>
+                <span class="eq-plus">+</span>
+                <div class="eq-term">
+                  <span class="eq-tag">NUTRITION</span>
+                  <span class="eq-sub">Smart Food</span>
+                </div>
+                <span class="eq-plus">+</span>
+                <div class="eq-term">
+                  <span class="eq-tag">BUDGET</span>
+                  <span class="eq-sub">Real ₹ Limits</span>
+                </div>
+                <span class="eq-equals">=</span>
+                <div class="eq-result">
+                  <span class="eq-brand">HEALTHY LIFE</span>
+                  <span class="eq-sub">Sustainable Fitness</span>
+                </div>
+              </div>
+
+              <div class="philosophy-bullets">
+                <div class="phil-item">
+                  <div class="phil-icon">🌱</div>
+                  <div>
+                    <h5>Eat Smart, Not Expensive</h5>
+                    <p>Soy chunks provide ~52g protein per 100g at ₹25. Smart nutrition is about cost-efficiency, not luxury brands.</p>
+                  </div>
+                </div>
+                <div class="phil-item">
+                  <div class="phil-icon">🏋️</div>
+                  <div>
+                    <h5>Train Smart, Not Complicated</h5>
+                    <p>Master compound movements and progressive overload, whether training in a college gym or in your hostel room.</p>
+                  </div>
+                </div>
+                <div class="phil-item">
+                  <div class="phil-icon">📈</div>
+                  <div>
+                    <h5>Consistency Over Perfection</h5>
+                    <p>A ₹200 daily meal plan you follow consistently beats a ₹1,000 diet you abandon after 4 days.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="philosophy-author-box">
+                <div class="author-info">
+                  <span class="author-name">Yashvardhan Singh Rathore</span>
+                  <span class="author-title">Founder, Healthy Life Initiative</span>
+                </div>
+                <a href="#contact" class="author-contact-link">Get In Touch →</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. CREATE MY PLAN (INTERACTIVE MULTI-STEP QUESTIONNAIRE)
+         ====================================================================== -->
+    <section class="planner-section section-spacing" id="create-plan">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-badge">Interactive Plan Generator</span>
+          <h2 class="section-headline">Create Your Personalized Plan</h2>
+          <p class="section-subtext">
+            Answer a few quick questions to generate a customized diet and workout blueprint that fits your body and your budget.
+          </p>
+        </div>
+
+        <!-- Wizard Card Container -->
+        <div class="wizard-card-wrapper" id="wizard-container">
+
+          <!-- Wizard Progress Bar & Step Tracker -->
+          <div class="wizard-header">
+            <div class="wizard-progress-bar-wrap">
+              <div class="wizard-progress-bar-fill" id="wizard-progress-fill" style="width: 14%;"></div>
+            </div>
+            <div class="wizard-step-indicators" id="wizard-step-indicators">
+              <button class="step-indicator active" data-step="1" title="Personal Details">1</button>
+              <button class="step-indicator" data-step="2" title="Experience">2</button>
+              <button class="step-indicator" data-step="3" title="Fitness Goal">3</button>
+              <button class="step-indicator" data-step="4" title="Daily Budget">4</button>
+              <button class="step-indicator" data-step="5" title="Diet Preference">5</button>
+              <button class="step-indicator" data-step="6" title="Meals Per Day">6</button>
+              <button class="step-indicator" data-step="7" title="Workout & Extras">7</button>
+            </div>
+          </div>
+
+          <!-- Wizard Form Container -->
+          <form id="plan-wizard-form" class="wizard-form" novalidate>
+
+            <!-- ================= STEP 1: PERSONAL DETAILS ================= -->
+            <div class="wizard-step-panel active" data-step="1">
+              <div class="step-panel-header">
+                <span class="step-count">Step 1 of 7</span>
+                <h3 class="step-panel-title">Tell Us About Yourself</h3>
+                <p class="step-panel-desc">We use your metrics to calculate your BMR, daily caloric expenditure, and macro requirements.</p>
+              </div>
+
+              <div class="form-grid-2">
+                <!-- Name -->
+                <div class="form-group">
+                  <label for="input-name" class="form-label">Your Name</label>
+                  <input type="text" id="input-name" class="form-input" placeholder="e.g. Yash" value="Alex" required>
+                </div>
+
+                <!-- Age -->
+                <div class="form-group">
+                  <label for="input-age" class="form-label">Age (Years)</label>
+                  <input type="number" id="input-age" class="form-input" min="14" max="80" placeholder="e.g. 20" value="20" required>
+                </div>
+
+                <!-- Gender -->
+                <div class="form-group">
+                  <label class="form-label">Gender</label>
+                  <div class="pill-radio-group" role="radiogroup" aria-label="Gender selection">
+                    <label class="pill-radio-label">
+                      <input type="radio" name="gender" value="male" checked>
+                      <span class="pill-btn">Male</span>
+                    </label>
+                    <label class="pill-radio-label">
+                      <input type="radio" name="gender" value="female">
+                      <span class="pill-btn">Female</span>
+                    </label>
+                    <label class="pill-radio-label">
+                      <input type="radio" name="gender" value="other">
+                      <span class="pill-btn">Other</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Height (cm) -->
+                <div class="form-group">
+                  <div class="label-with-toggle">
+                    <label for="input-height" class="form-label">Height (cm)</label>
+                    <span class="label-hint">e.g. 175 cm ≈ 5'9"</span>
+                  </div>
+                  <input type="number" id="input-height" class="form-input" min="120" max="230" placeholder="175" value="175" required>
+                </div>
+
+                <!-- Weight (kg) -->
+                <div class="form-group">
+                  <label for="input-weight" class="form-label">Current Weight (kg)</label>
+                  <input type="number" id="input-weight" class="form-input" min="30" max="200" placeholder="68" value="68" required>
+                </div>
+
+                <!-- Activity Level -->
+                <div class="form-group">
+                  <label for="select-activity" class="form-label">Daily Activity Level</label>
+                  <select id="select-activity" class="form-select" required>
+                    <option value="sedentary">Sedentary (College desk / Little exercise)</option>
+                    <option value="light" selected>Lightly Active (1–2 days/week light activity)</option>
+                    <option value="moderate">Moderately Active (3–5 days/week training)</option>
+                    <option value="very">Very Active (6–7 days/week intense training)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= STEP 2: FITNESS EXPERIENCE ================= -->
+            <div class="wizard-step-panel" data-step="2">
+              <div class="step-panel-header">
+                <span class="step-count">Step 2 of 7</span>
+                <h3 class="step-panel-title">What is Your Fitness Experience?</h3>
+                <p class="step-panel-desc">We tailor exercises and volume so you never feel overwhelmed or risk injury.</p>
+              </div>
+
+              <div class="cards-select-grid cards-3">
+                <!-- Beginner Card (Recommended) -->
+                <label class="selectable-card active">
+                  <input type="radio" name="experience" value="beginner" checked>
+                  <div class="card-inner">
+                    <div class="card-badge-top">Recommended</div>
+                    <div class="card-icon-circle">🌱</div>
+                    <h4 class="card-option-title">Beginner</h4>
+                    <p class="card-option-sub">0 to 6 months in the gym</p>
+                    <ul class="card-features">
+                      <li>Focus on proper lifting form</li>
+                      <li>Foundation compound movements</li>
+                      <li>Simple, non-intimidating diet</li>
+                    </ul>
+                  </div>
                 </label>
-                <input type="range" id="calc-weight" class="calc-slider" min="45" max="120" value="70" step="1">
+
+                <!-- Intermediate Card -->
+                <label class="selectable-card">
+                  <input type="radio" name="experience" value="intermediate">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">⚡</div>
+                    <h4 class="card-option-title">Intermediate</h4>
+                    <p class="card-option-sub">6 months to 2 years</p>
+                    <ul class="card-features">
+                      <li>Progressive overload tracking</li>
+                      <li>Upper / Lower & PPL splits</li>
+                      <li>Precise macronutrient balance</li>
+                    </ul>
+                  </div>
+                </label>
+
+                <!-- Advanced Card -->
+                <label class="selectable-card">
+                  <input type="radio" name="experience" value="advanced">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">🔥</div>
+                    <h4 class="card-option-title">Advanced</h4>
+                    <p class="card-option-sub">2+ years of consistent lifting</p>
+                    <ul class="card-features">
+                      <li>High volume training protocols</li>
+                      <li>Periodized nutrition strategies</li>
+                      <li>Max cost-efficiency budgeting</li>
+                    </ul>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- ================= STEP 3: FITNESS GOAL ================= -->
+            <div class="wizard-step-panel" data-step="3">
+              <div class="step-panel-header">
+                <span class="step-count">Step 3 of 7</span>
+                <h3 class="step-panel-title">What is Your Main Fitness Goal?</h3>
+                <p class="step-panel-desc">This dictates your daily calorie surplus/deficit and protein target.</p>
               </div>
 
-              <div class="calc-group">
-                <span class="calc-label">Training Routine Intensity:</span>
-                <div class="calc-pills">
-                  <button type="button" class="calc-pill-btn" data-multiplier="1.4">Moderate (2-3x/wk)</button>
-                  <button type="button" class="calc-pill-btn active" data-multiplier="1.8">Active (4-5x/wk)</button>
-                  <button type="button" class="calc-pill-btn" data-multiplier="2.2">Intense (6x/wk)</button>
+              <div class="cards-select-grid cards-3">
+                <!-- Goal 1: Muscle Gain -->
+                <label class="selectable-card active">
+                  <input type="radio" name="goal" value="muscle_gain" checked>
+                  <div class="card-inner">
+                    <div class="card-icon-circle">💪</div>
+                    <h4 class="card-option-title">MUSCLE GAIN</h4>
+                    <p class="card-option-sub">Build lean muscle & strength</p>
+                    <div class="card-goal-tags">
+                      <span class="goal-tag">Higher Protein Focus</span>
+                      <span class="goal-tag">Adequate Calories</span>
+                      <span class="goal-tag">Strength Training</span>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- Goal 2: Fat Loss -->
+                <label class="selectable-card">
+                  <input type="radio" name="goal" value="fat_loss">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">🔥</div>
+                    <h4 class="card-option-title">FAT LOSS</h4>
+                    <p class="card-option-sub">Burn fat while keeping muscle</p>
+                    <div class="card-goal-tags">
+                      <span class="goal-tag">Calorie Control</span>
+                      <span class="goal-tag">High-Protein Satiety</span>
+                      <span class="goal-tag">Strength + Activity</span>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- Goal 3: General Fitness -->
+                <label class="selectable-card">
+                  <input type="radio" name="goal" value="general_fitness">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">⚡</div>
+                    <h4 class="card-option-title">GENERAL FITNESS</h4>
+                    <p class="card-option-sub">Health, stamina & daily energy</p>
+                    <div class="card-goal-tags">
+                      <span class="goal-tag">Balanced Nutrition</span>
+                      <span class="goal-tag">Regular Exercise</span>
+                      <span class="goal-tag">Healthy Lifestyle</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- ================= STEP 4: DAILY FOOD BUDGET ================= -->
+            <div class="wizard-step-panel" data-step="4">
+              <div class="step-panel-header">
+                <span class="step-count">Step 4 of 7</span>
+                <h3 class="step-panel-title">What is Your Maximum Daily Food Budget?</h3>
+                <p class="step-panel-desc">Enter your realistic daily food allowance in Indian Rupees (₹). We will build full day meals strictly inside this amount.</p>
+              </div>
+
+              <div class="budget-selector-card">
+                <div class="budget-display-wrapper">
+                  <span class="budget-currency">₹</span>
+                  <input type="number" id="input-budget" class="budget-number-input" min="100" max="1000" step="10" value="250">
+                  <span class="budget-unit">/ day</span>
+                </div>
+
+                <!-- Quick Selection Chips -->
+                <div class="quick-budget-chips">
+                  <button type="button" class="budget-chip" data-budget="150">₹150</button>
+                  <button type="button" class="budget-chip" data-budget="200">₹200</button>
+                  <button type="button" class="budget-chip active" data-budget="250">₹250</button>
+                  <button type="button" class="budget-chip" data-budget="300">₹300</button>
+                  <button type="button" class="budget-chip" data-budget="400">₹400</button>
+                  <button type="button" class="budget-chip" data-budget="500">₹500</button>
+                </div>
+
+                <!-- Range Slider -->
+                <div class="budget-slider-wrap">
+                  <input type="range" id="slider-budget" class="range-slider" min="120" max="600" step="10" value="250">
+                  <div class="slider-limits">
+                    <span>₹120 (Hostel Budget)</span>
+                    <span>₹350 (Standard)</span>
+                    <span>₹600+ (High Surplus)</span>
+                  </div>
+                </div>
+
+                <!-- Dynamic Budget Insight Box -->
+                <div class="budget-insight-box" id="budget-insight-box">
+                  <span class="insight-icon">💡</span>
+                  <div id="budget-insight-text">
+                    <strong>₹250 / day</strong> is an optimal budget! Allows high-protein staples like eggs/paneer, milk, soy chunks, peanuts, oats, curd, and seasonal fruits.
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Result Card -->
-          <div class="calc-result-card">
-            <div>
-              <span class="metric-sub" style="color:var(--text-tertiary);">Estimated Target</span>
-              <div class="result-metric-large" id="calc-protein-res">126g</div>
-              <span style="font-size: 0.875rem; color: var(--text-secondary); font-weight: 500;">Daily Protein Intake
-                Goal</span>
-            </div>
-
-            <div
-              style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; padding-top:1rem; border-top:1px solid var(--border-subtle);">
-              <div>
-                <span class="metric-sub">Hydration</span>
-                <div style="font-family:var(--font-display); font-size:1.4rem; font-weight:700;" id="calc-water-res">
-                  2.8L</div>
-                <span style="font-size:0.75rem; color:var(--text-tertiary);">Water / day</span>
+            <!-- ================= STEP 5: DIETARY PREFERENCE ================= -->
+            <div class="wizard-step-panel" data-step="5">
+              <div class="step-panel-header">
+                <span class="step-count">Step 5 of 7</span>
+                <h3 class="step-panel-title">What is Your Dietary Preference?</h3>
+                <p class="step-panel-desc">All meal blueprints are designed with authentic Indian food items suited to your lifestyle.</p>
               </div>
-              <div>
-                <span class="metric-sub">Healthy Life Whey</span>
-                <div style="font-family:var(--font-display); font-size:1.4rem; font-weight:700;" id="calc-scoops-res">1
-                  Scoop/day</div>
-                <span style="font-size:0.75rem; color:var(--text-tertiary);">Post-workout boost</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ======================================================================
-         WHY HEALTHY LIFE (4 CORE PRINCIPLES)
-         ====================================================================== -->
-    <section class="why-section section-spacing" id="philosophy">
-      <div class="container">
+              <div class="cards-select-grid cards-3">
+                <!-- Vegetarian -->
+                <label class="selectable-card">
+                  <input type="radio" name="diet" value="vegetarian">
+                  <div class="card-inner">
+                    <div class="card-icon-circle diet-veg">🥦</div>
+                    <h4 class="card-option-title">Vegetarian</h4>
+                    <p class="card-option-sub">Pure plant & dairy nutrition</p>
+                    <div class="diet-staples-preview">
+                      <span>Paneer</span> • <span>Soy Chunks</span> • <span>Dal</span> • <span>Curd</span> • <span>Milk</span> • <span>Peanuts</span>
+                    </div>
+                  </div>
+                </label>
 
-        <div class="reveal">
-          <div class="section-label">Our Principles</div>
-          <h2 class="headline-section">WHY HEALTHY LIFE?</h2>
-          <p class="paragraph-body" style="max-width: 580px; margin-top: 0.5rem;">
-            Built on timeless foundations of physical self-improvement, honesty, and sustainable consistency.
-          </p>
-        </div>
+                <!-- Eggetarian -->
+                <label class="selectable-card active">
+                  <input type="radio" name="diet" value="eggetarian" checked>
+                  <div class="card-inner">
+                    <div class="card-badge-top">Highest Protein Value</div>
+                    <div class="card-icon-circle diet-egg">🍳</div>
+                    <h4 class="card-option-title">Eggetarian</h4>
+                    <p class="card-option-sub">Vegetarian + Whole Eggs</p>
+                    <div class="diet-staples-preview">
+                      <span>Eggs</span> • <span>Milk</span> • <span>Curd</span> • <span>Soy</span> • <span>Roti</span> • <span>Oats</span>
+                    </div>
+                  </div>
+                </label>
 
-        <div class="principles-grid">
-
-          <!-- Principle 01 -->
-          <div class="principle-card reveal">
-            <div class="principle-top">
-              <span class="principle-number">01</span>
-              <h3 class="principle-title">SIMPLICITY</h3>
-            </div>
-            <p class="principle-quote">“Nutrition should be easy to understand.”</p>
-          </div>
-
-          <!-- Principle 02 -->
-          <div class="principle-card reveal delay-1">
-            <div class="principle-top">
-              <span class="principle-number">02</span>
-              <h3 class="principle-title">CONSISTENCY</h3>
-            </div>
-            <p class="principle-quote">“Real progress starts with showing up.”</p>
-          </div>
-
-          <!-- Principle 03 -->
-          <div class="principle-card reveal delay-2">
-            <div class="principle-top">
-              <span class="principle-number">03</span>
-              <h3 class="principle-title">PERFORMANCE</h3>
-            </div>
-            <p class="principle-quote">“Fuel the work you put in.”</p>
-          </div>
-
-          <!-- Principle 04 -->
-          <div class="principle-card reveal delay-3">
-            <div class="principle-top">
-              <span class="principle-number">04</span>
-              <h3 class="principle-title">LIFESTYLE</h3>
-            </div>
-            <p class="principle-quote">“Fitness belongs in everyday life.”</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         MEET YASHVARDHAN (FOUNDER SECTION)
-         ====================================================================== -->
-    <section class="founder-section section-spacing" id="founder">
-      <div class="container">
-        <div class="founder-grid">
-
-          <!-- Founder Image / Visual Treatment -->
-          <div class="founder-visual-wrap reveal">
-            <div class="founder-image-container">
-              <img src="assets/founder-yashvardhan.jpg" alt="Yashvardhan Singh Rathore — Founder of Healthy Life"
-                class="founder-img" loading="lazy">
-            </div>
-            <div class="founder-ethos-badge">
-              <p>“Train with purpose.<br>Live with discipline.”</p>
-            </div>
-          </div>
-
-          <!-- Founder Story -->
-          <div class="founder-content reveal delay-1">
-            <div class="section-label">Founder & Vision</div>
-
-            <h2 class="headline-section">MEET YASHVARDHAN</h2>
-
-            <p class="founder-narrative">
-              “Hi, I’m Yashvardhan Singh Rathore, a 19-year-old student currently in my third year. Fitness and training
-              have become an important part of my life, and Healthy Life is my vision for a brand that makes fitness
-              nutrition feel simple, modern, and accessible.”
-            </p>
-
-            <!-- Identity Stat Highlights -->
-            <div class="founder-identity-card">
-              <div class="identity-stat">
-                <span class="identity-stat-label">Founder</span>
-                <span class="identity-stat-val">Yashvardhan</span>
-              </div>
-              <div class="identity-stat">
-                <span class="identity-stat-label">Background</span>
-                <span class="identity-stat-val">19 Yrs • 3rd Year</span>
-              </div>
-              <div class="identity-stat">
-                <span class="identity-stat-label">Focus</span>
-                <span class="identity-stat-val">Fitness & Nutrition</span>
+                <!-- Non-Vegetarian -->
+                <label class="selectable-card">
+                  <input type="radio" name="diet" value="non_vegetarian">
+                  <div class="card-inner">
+                    <div class="card-icon-circle diet-nonveg">🍗</div>
+                    <h4 class="card-option-title">Non-Vegetarian</h4>
+                    <p class="card-option-sub">Includes Chicken, Fish & Eggs</p>
+                    <div class="diet-staples-preview">
+                      <span>Chicken</span> • <span>Fish</span> • <span>Eggs</span> • <span>Rice</span> • <span>Curd</span> • <span>Dal</span>
+                    </div>
+                  </div>
+                </label>
               </div>
             </div>
 
-            <!-- Ethos Block -->
-            <div class="founder-motto">
-              <p class="founder-motto-text">
-                Train with purpose.<br>
-                Live with discipline.
-              </p>
+            <!-- ================= STEP 6: MEALS PER DAY ================= -->
+            <div class="wizard-step-panel" data-step="6">
+              <div class="step-panel-header">
+                <span class="step-count">Step 6 of 7</span>
+                <h3 class="step-panel-title">How Many Meals Do You Prefer Per Day?</h3>
+                <p class="step-panel-desc">We split your daily calories and budget evenly across your meal slots.</p>
+              </div>
+
+              <div class="cards-select-grid cards-3">
+                <!-- 3 Meals -->
+                <label class="selectable-card">
+                  <input type="radio" name="meals_count" value="3">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">🍽️</div>
+                    <h4 class="card-option-title">3 Meals</h4>
+                    <p class="card-option-sub">Classic Structure</p>
+                    <div class="meal-slot-preview">
+                      <span>1. Breakfast</span>
+                      <span>2. Lunch</span>
+                      <span>3. Dinner</span>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- 4 Meals (Recommended) -->
+                <label class="selectable-card active">
+                  <input type="radio" name="meals_count" value="4" checked>
+                  <div class="card-inner">
+                    <div class="card-badge-top">Student Favorite</div>
+                    <div class="card-icon-circle">⏰</div>
+                    <h4 class="card-option-title">4 Meals</h4>
+                    <p class="card-option-sub">Includes Evening Snack</p>
+                    <div class="meal-slot-preview">
+                      <span>1. Breakfast</span>
+                      <span>2. Lunch</span>
+                      <span>3. Evening Snack</span>
+                      <span>4. Dinner</span>
+                    </div>
+                  </div>
+                </label>
+
+                <!-- 5 Meals -->
+                <label class="selectable-card">
+                  <input type="radio" name="meals_count" value="5">
+                  <div class="card-inner">
+                    <div class="card-icon-circle">🥗</div>
+                    <h4 class="card-option-title">5 Meals</h4>
+                    <p class="card-option-sub">Frequent Steady Satiety</p>
+                    <div class="meal-slot-preview">
+                      <span>1. Breakfast</span>
+                      <span>2. Mid-Morning</span>
+                      <span>3. Lunch</span>
+                      <span>4. Evening Snack</span>
+                      <span>5. Dinner</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:0.5rem;">
-              <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
-              <a href="mailto:yash345fd@gmail.com" class="btn btn-secondary btn-sm">Email Yashvardhan</a>
+            <!-- ================= STEP 7: WORKOUT & OPTIONAL PREFERENCES ================= -->
+            <div class="wizard-step-panel" data-step="7">
+              <div class="step-panel-header">
+                <span class="step-count">Step 7 of 7</span>
+                <h3 class="step-panel-title">Workout Setup & Optional Preferences</h3>
+                <p class="step-panel-desc">Tell us where you train and any food sensitivities.</p>
+              </div>
+
+              <!-- Workout Location Toggle -->
+              <div class="form-sub-section">
+                <label class="form-label font-bold">Where do you plan to workout?</label>
+                <div class="cards-select-grid cards-2" style="margin-bottom: 1.5rem;">
+                  <label class="selectable-card active">
+                    <input type="radio" name="workout_loc" value="gym" checked>
+                    <div class="card-inner">
+                      <div class="card-icon-circle">🏋️‍♂️</div>
+                      <h4 class="card-option-title">Gym Workout</h4>
+                      <p class="card-option-sub">Access to standard gym machines & weights</p>
+                    </div>
+                  </label>
+                  <label class="selectable-card">
+                    <input type="radio" name="workout_loc" value="home">
+                    <div class="card-inner">
+                      <div class="card-icon-circle">🏠</div>
+                      <h4 class="card-option-title">Home Workout</h4>
+                      <p class="card-option-sub">Hostel room or home fitness setup</p>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Dynamic Equipment Sub-options -->
+              <div class="form-sub-section" id="equipment-sub-section">
+                <!-- Gym Equipment Options -->
+                <div class="equipment-box" id="gym-equipment-box">
+                  <label class="form-label">Available Gym Equipment</label>
+                  <select id="select-gym-equipment" class="form-select">
+                    <option value="full_gym" selected>Full Commercial / College Gym (Barbells, Dumbbells, Machines, Cables)</option>
+                    <option value="basic_gym">Basic Gym (Dumbbells & Barbells only)</option>
+                    <option value="machines_only">Machines & Cardio Setup</option>
+                  </select>
+                </div>
+
+                <!-- Home Equipment Options -->
+                <div class="equipment-box hidden" id="home-equipment-box">
+                  <label class="form-label">Available Home Equipment</label>
+                  <select id="select-home-equipment" class="form-select">
+                    <option value="bodyweight" selected>No Equipment (Pure Bodyweight / Calisthenics)</option>
+                    <option value="dumbbells">Pair of Dumbbells</option>
+                    <option value="bands">Resistance Bands</option>
+                    <option value="basic_home">Basic Equipment (Dumbbells + Pullup Bar + Bands)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Days per week & Allergies -->
+              <div class="form-grid-2" style="margin-top: 1.5rem;">
+                <div class="form-group">
+                  <label for="select-days" class="form-label">Workout Days Per Week</label>
+                  <select id="select-days" class="form-select">
+                    <option value="3">3 Days (Full Body Split — Best for Beginners)</option>
+                    <option value="4" selected>4 Days (Upper / Lower Split)</option>
+                    <option value="5">5 Days (Push / Pull / Legs + Upper / Lower)</option>
+                    <option value="6">6 Days (Push / Pull / Legs × 2)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="input-allergies" class="form-label">Food Allergies / Intolerances (Optional)</label>
+                  <select id="input-allergies" class="form-select">
+                    <option value="none" selected>None / No major allergies</option>
+                    <option value="lactose">Lactose Intolerant (No direct dairy milk)</option>
+                    <option value="peanuts">Peanut Allergy (No peanuts/peanut butter)</option>
+                    <option value="gluten">Gluten Sensitivity</option>
+                    <option value="soy">Soy Allergy (No soya chunks/tofu)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-top: 1rem;">
+                <label for="input-dislikes" class="form-label">Foods You Dislike (Optional)</label>
+                <input type="text" id="input-dislikes" class="form-input" placeholder="e.g. Brinjal, Karela, Raw Milk">
+              </div>
             </div>
-          </div>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         FITNESS QUOTE SECTION
-         ====================================================================== -->
-    <section class="quote-section section-spacing">
-      <div class="container container-narrow">
-        <div class="quote-box reveal">
-          <div class="quote-mark" aria-hidden="true">“</div>
-          <blockquote class="quote-text">
-            Your body can stand almost anything.<br>
-            It’s your mind you have to convince.
-          </blockquote>
-          <div class="quote-author">— Mindset & Discipline</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         FINAL BRAND STATEMENT
-         ====================================================================== -->
-    <section class="brand-statement-section section-spacing">
-      <div class="dark-glow-orb" aria-hidden="true"></div>
-      <div class="container">
-        <div class="brand-statement-wrap reveal">
-          <h2 class="closing-manifesto">
-            <span>LIVE HEALTHY.</span>
-            <span>TRAIN HARD.</span>
-            <span class="text-accent">STAY CONSISTENT.</span>
-          </h2>
-          <div class="giant-brand-title">
-            HEALTHY LIFE
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         CONTACT SECTION
-         ====================================================================== -->
-    <section class="contact-section section-spacing" id="contact">
-      <div class="container">
-        <div class="contact-card-box reveal">
-
-          <!-- Contact Details -->
-          <div class="contact-info">
-            <div class="section-label">Connect</div>
-            <h2 class="headline-section">LET’S BUILD A HEALTHIER LIFE.</h2>
-            <p class="paragraph-body">
-              For questions, collaborations, or simply to say hello.
-            </p>
-
-            <div class="contact-email-box">
-              <a href="mailto:yash345fd@gmail.com" class="email-pill" id="direct-email-link">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                  <polyline points="22,6 12,13 2,6"></polyline>
+            <!-- Wizard Navigation Buttons -->
+            <div class="wizard-footer-nav">
+              <button type="button" class="btn btn-secondary" id="wizard-prev-btn" disabled>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
                 </svg>
-                <span>yash345fd@gmail.com</span>
-              </a>
+                <span>Previous Step</span>
+              </button>
 
-              <button type="button" class="copy-email-btn" title="Copy email address"
-                aria-label="Copy email address to clipboard">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              <button type="button" class="btn btn-primary" id="wizard-next-btn">
+                <span>Next Step</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              <button type="submit" class="btn btn-primary btn-glow hidden" id="wizard-submit-btn">
+                <span>Generate My Plan →</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                 </svg>
               </button>
             </div>
 
-            <div style="margin-top: 1rem;">
-              <a href="mailto:yash345fd@gmail.com" class="btn btn-primary" id="btn-contact-main">
-                <span>Contact Me →</span>
-              </a>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. PERSONALIZED DIET PLAN (GENERATED RESULTS)
+         ====================================================================== -->
+    <section class="diet-section section-spacing" id="diet-plan">
+      <div class="container">
+
+        <!-- Personalized Plan Header Badge -->
+        <div class="plan-results-hero-card">
+          <div class="plan-results-top">
+            <div class="plan-title-block">
+              <span class="plan-active-tag">Personalized Nutrition Blueprint</span>
+              <h2 class="plan-user-heading" id="plan-user-title">Alex's Muscle Gain Diet Plan</h2>
+              <p class="plan-subtitle-meta" id="plan-user-meta">
+                Estimated Daily Calories: <strong id="plan-stat-cal">~2,400 kcal</strong> • Daily Food Budget: <strong id="plan-stat-budget">₹250</strong>
+              </p>
+            </div>
+
+            <div class="plan-actions-group">
+              <button class="btn btn-secondary btn-sm" id="btn-regenerate-diet" title="Regenerate Plan">
+                <span>🔄 Regenerate</span>
+              </button>
+              <button class="btn btn-secondary btn-sm" id="btn-print-plan" title="Print or Save PDF">
+                <span>🖨️ Print / Save</span>
+              </button>
             </div>
           </div>
 
-          <!-- Quick Message Form -->
-          <form class="quick-message-form" id="quick-contact-form">
-            <h3 style="font-family:var(--font-display); font-size:1.25rem; font-weight:700;">Send a Quick Note</h3>
-
-            <div class="form-group">
-              <label for="contact-name" class="form-label">Your Name</label>
-              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex" required>
+          <!-- Nutritional Targets Overview Cards -->
+          <div class="plan-macros-grid">
+            <div class="macro-stat-card">
+              <span class="macro-stat-lbl">Target Calories</span>
+              <span class="macro-stat-val text-green" id="macro-calories">2,400 <small>kcal</small></span>
+              <span class="macro-stat-note" id="macro-tdee-note">BMR: 1,650 • TDEE: 2,150</span>
             </div>
 
-            <div class="form-group">
-              <label for="contact-message" class="form-label">Your Message or Question</label>
-              <textarea id="contact-message" class="form-textarea"
-                placeholder="Hi Yashvardhan, I wanted to reach out regarding..." required></textarea>
+            <div class="macro-stat-card">
+              <span class="macro-stat-lbl">Protein Target</span>
+              <span class="macro-stat-val" id="macro-protein">~120g</span>
+              <span class="macro-stat-note" id="macro-pro-kg-note">~1.76g per kg bodyweight</span>
             </div>
 
-            <button type="submit" class="btn btn-accent btn-sm" style="width:100%;">
-              Send Note to Yashvardhan →
-            </button>
-          </form>
+            <div class="macro-stat-card">
+              <span class="macro-stat-lbl">Carbohydrates</span>
+              <span class="macro-stat-val" id="macro-carbs">~290g</span>
+              <span class="macro-stat-note">Energy for workouts</span>
+            </div>
+
+            <div class="macro-stat-card">
+              <span class="macro-stat-lbl">Healthy Fats</span>
+              <span class="macro-stat-val" id="macro-fats">~65g</span>
+              <span class="macro-stat-note">Hormonal health</span>
+            </div>
+          </div>
+
+          <!-- Visual Budget Progress Indicator Bar -->
+          <div class="budget-tracker-bar-card">
+            <div class="budget-bar-header">
+              <div class="budget-bar-info">
+                <span class="budget-bar-title">Daily Food Budget Status</span>
+                <span class="budget-bar-numbers" id="budget-bar-numbers">
+                  Estimated Daily Cost: <strong id="plan-est-cost">₹225</strong> / Budget: <strong id="plan-limit-cost">₹250</strong>
+                </span>
+              </div>
+              <div class="budget-savings-badge" id="plan-savings-badge">
+                🎉 Remaining: ₹25 Saved
+              </div>
+            </div>
+
+            <div class="budget-bar-track">
+              <div class="budget-bar-progress" id="budget-bar-fill" style="width: 90%;"></div>
+            </div>
+
+            <div class="budget-bar-footer">
+              <span>₹0</span>
+              <span id="budget-midpoint-lbl">₹125 (50%)</span>
+              <span id="budget-max-lbl">₹250 Max Limit</span>
+            </div>
+          </div>
+
+          <!-- Mandatory Medical / Educational Disclaimer -->
+          <div class="disclaimer-alert-box">
+            <span class="disclaimer-icon">ℹ️</span>
+            <p class="disclaimer-text">
+              <strong>HEALTHY LIFE Educational Notice:</strong> Nutrition calculations are general estimates based on standard caloric formulas, not medical prescriptions. Individual nutritional requirements vary. Please consult a doctor or certified dietitian before starting any significant dietary change.
+            </p>
+          </div>
+        </div>
+
+        <!-- Daily Meal Plan Cards Grid -->
+        <div class="section-sub-header">
+          <h3 class="subsection-title">Daily Meal Schedule</h3>
+          <p class="subsection-sub">Every meal is cost-optimized and includes an interactive <strong>Replace Meal</strong> option to suit your taste.</p>
+        </div>
+
+        <div class="meals-cards-grid" id="meals-container">
+          <!-- Meal cards will be dynamically rendered here by JavaScript -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. MEAL ALTERNATIVES MODAL (DYNAMIC INTERACTIVE REPLACEMENT)
+         ====================================================================== -->
+    <div class="modal-backdrop" id="meal-replace-modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <span class="modal-subtag">Meal Alternatives</span>
+              <h3 class="modal-title" id="replace-modal-meal-name">Replace Breakfast</h3>
+            </div>
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+          </div>
+
+          <div class="modal-body">
+            <p class="modal-instruction">
+              Select any alternative below. All options maintain similar protein and calorie profiles while strictly honoring your dietary preference and daily budget.
+            </p>
+
+            <div class="alternatives-list" id="alternatives-container">
+              <!-- Dynamically populated alternative options -->
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="modal-cancel-btn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         6. FOOD OPTIONS DATABASE (AFFORDABLE FOOD DIRECTORY)
+         ====================================================================== -->
+    <section class="food-db-section section-spacing" id="food-options">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-badge">Affordable Grocery Database</span>
+          <h2 class="section-headline">Cost-Effective Fitness Foods</h2>
+          <p class="section-subtext">
+            Explore verified Indian budget foods categorized by macronutrient, cost-efficiency, and protein yield per Rupee.
+          </p>
+        </div>
+
+        <!-- Food Database Controls & Filters -->
+        <div class="food-filter-controls">
+          <!-- Search Box -->
+          <div class="food-search-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="food-search-input" class="food-search-input" placeholder="Search foods (e.g. Eggs, Soy, Oats, Paneer)...">
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="food-category-tabs" role="tablist">
+            <button class="food-cat-btn active" data-cat="all">All Foods</button>
+            <button class="food-cat-btn" data-cat="Protein">🥩 Protein</button>
+            <button class="food-cat-btn" data-cat="Carbohydrates">🌾 Carbs</button>
+            <button class="food-cat-btn" data-cat="Healthy Fats">🥑 Healthy Fats</button>
+            <button class="food-cat-btn" data-cat="Fruits & Vegetables">🥗 Fruits & Veg</button>
+          </div>
+
+          <!-- Diet & Sorting Filters -->
+          <div class="food-sub-filters">
+            <div class="filter-group">
+              <label for="food-diet-filter" class="filter-label">Diet:</label>
+              <select id="food-diet-filter" class="form-select-sm">
+                <option value="all">All Diets</option>
+                <option value="veg">Vegetarian Only</option>
+                <option value="egg">Eggetarian</option>
+                <option value="nonveg">Non-Vegetarian</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="food-sort-filter" class="filter-label">Sort by:</label>
+              <select id="food-sort-filter" class="form-select-sm">
+                <option value="value">Best Value (Protein / ₹10)</option>
+                <option value="price_low">Lowest Price (₹)</option>
+                <option value="protein_high">Highest Protein (g)</option>
+                <option value="calories_low">Lowest Calories</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Food Cards Grid -->
+        <div class="food-cards-grid" id="food-cards-container">
+          <!-- Food cards populated by JavaScript -->
+        </div>
+
+        <!-- Food Database Disclaimer Note -->
+        <div class="food-db-disclaimer">
+          <p>
+            * <em>Note: Food prices are approximate averages in Indian Rupees (₹) and may vary slightly depending on your city, local grocery stores, campus mess rates, and seasonal market prices.</em>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. WORKOUT PLAN SECTION (BEGINNER-FRIENDLY ROUTINES)
+         ====================================================================== -->
+    <section class="workout-section section-spacing" id="workout-plan">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-badge">Structured Training</span>
+          <h2 class="section-headline">Your Beginner Workout Plan</h2>
+          <p class="section-subtext">
+            Simple, effective compound routines tailored to your chosen environment, available equipment, and goal.
+          </p>
+        </div>
+
+        <!-- Workout Controls & Schedule Tabs -->
+        <div class="workout-dashboard-controls">
+          <div class="workout-meta-pills">
+            <span class="workout-pill" id="workout-meta-goal">Goal: Muscle Gain</span>
+            <span class="workout-pill" id="workout-meta-loc">Location: Gym Workout</span>
+            <span class="workout-pill" id="workout-meta-exp">Level: Beginner Friendly</span>
+          </div>
+
+          <!-- Schedule Days Switcher -->
+          <div class="workout-days-tabs" id="workout-days-tabs">
+            <button class="w-day-tab" data-days="3">3-Day Routine</button>
+            <button class="w-day-tab active" data-days="4">4-Day Routine</button>
+            <button class="w-day-tab" data-days="5">5-Day Routine</button>
+            <button class="w-day-tab" data-days="6">6-Day Routine</button>
+          </div>
+        </div>
+
+        <!-- Days Schedule Container -->
+        <div class="workout-schedule-grid" id="workout-schedule-container">
+          <!-- Generated Day and Exercise Cards populated by JavaScript -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Rest Timer Modal / Floating Widget -->
+    <div class="rest-timer-modal" id="rest-timer-widget" aria-hidden="true">
+      <div class="rest-timer-card">
+        <div class="rest-timer-header">
+          <span class="rest-title">⏱️ Set Rest Timer</span>
+          <button class="rest-close-btn" id="rest-timer-close">✕</button>
+        </div>
+        <div class="rest-timer-display" id="rest-timer-digits">60</div>
+        <span class="rest-timer-sub">Seconds Remaining</span>
+        <div class="rest-presets">
+          <button class="rest-preset-btn" data-time="30">30s</button>
+          <button class="rest-preset-btn active" data-time="60">60s</button>
+          <button class="rest-preset-btn" data-time="90">90s</button>
+          <button class="rest-preset-btn" data-time="120">120s</button>
+        </div>
+        <div class="rest-timer-actions">
+          <button class="btn btn-primary btn-sm" id="rest-timer-toggle">Start Timer</button>
+          <button class="btn btn-secondary btn-sm" id="rest-timer-reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         8 & 9. PROGRESS DASHBOARD (APPLE-INSPIRED FITNESS DASHBOARD)
+         ====================================================================== -->
+    <section class="dashboard-section section-spacing" id="progress-dashboard">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-badge">Track & Celebrate</span>
+          <h2 class="section-headline">Progress Dashboard</h2>
+          <p class="section-subtext">
+            Monitor your daily food spending, weight journey, workout consistency, and protein adherence in one clean hub.
+          </p>
+        </div>
+
+        <!-- Top Summary Cards Grid -->
+        <div class="dashboard-stats-grid">
+
+          <!-- Card 1: Goal -->
+          <div class="dash-summary-card">
+            <div class="dash-card-header">
+              <span class="dash-card-icon">🎯</span>
+              <span class="dash-card-label">MY GOAL</span>
+            </div>
+            <div class="dash-card-val" id="dash-goal-text">Muscle Gain</div>
+            <div class="dash-card-sub" id="dash-goal-sub">Hypertrophy & Surplus</div>
+          </div>
+
+          <!-- Card 2: Daily Budget -->
+          <div class="dash-summary-card">
+            <div class="dash-card-header">
+              <span class="dash-card-icon">💰</span>
+              <span class="dash-card-label">DAILY FOOD BUDGET</span>
+            </div>
+            <div class="dash-card-val" id="dash-budget-text">₹250</div>
+            <div class="dash-card-sub">Fixed Daily Cap</div>
+          </div>
+
+          <!-- Card 3: Today's Spending -->
+          <div class="dash-summary-card dash-card-highlight">
+            <div class="dash-card-header">
+              <span class="dash-card-icon">💳</span>
+              <span class="dash-card-label">TODAY'S FOOD SPENDING</span>
+            </div>
+            <div class="dash-card-val text-green" id="dash-spent-text">₹225 / ₹250</div>
+            <div class="dash-card-sub" id="dash-spent-sub">₹25 Under Budget Today</div>
+          </div>
+
+          <!-- Card 4: Protein Target -->
+          <div class="dash-summary-card">
+            <div class="dash-card-header">
+              <span class="dash-card-icon">🥩</span>
+              <span class="dash-card-label">PROTEIN TARGET</span>
+            </div>
+            <div class="dash-card-val" id="dash-protein-text">~120g</div>
+            <div class="dash-card-sub">Daily High Protein</div>
+          </div>
+
+          <!-- Card 5: Today's Workout -->
+          <div class="dash-summary-card">
+            <div class="dash-card-header">
+              <span class="dash-card-icon">🏋️</span>
+              <span class="dash-card-label">TODAY'S WORKOUT</span>
+            </div>
+            <div class="dash-card-val" id="dash-workout-text">Full Body — Day 1</div>
+            <div class="dash-card-sub" id="dash-workout-status">⚡ 0/6 Exercises Done</div>
+          </div>
 
         </div>
+
+        <!-- Interactive Trackers 2-Column Grid -->
+        <div class="dashboard-interactive-grid">
+
+          <!-- Left Column: Weight Tracker & Interactive Chart -->
+          <div class="dash-card-panel">
+            <div class="panel-header">
+              <div>
+                <h3 class="panel-title">Weight Progress Tracker</h3>
+                <p class="panel-desc">Log your bodyweight weekly to visualize trends.</p>
+              </div>
+              <div class="weight-summary-badge">
+                Current: <strong id="dash-current-wt">68.0 kg</strong>
+              </div>
+            </div>
+
+            <!-- Weight Log Input Bar -->
+            <div class="weight-log-bar">
+              <div class="input-with-label">
+                <label for="input-log-weight" class="mini-label">Log Weight (kg)</label>
+                <input type="number" id="input-log-weight" class="form-input-sm" step="0.1" placeholder="68.2">
+              </div>
+              <div class="input-with-label">
+                <label for="input-log-date" class="mini-label">Date</label>
+                <input type="date" id="input-log-date" class="form-input-sm">
+              </div>
+              <button type="button" class="btn btn-primary btn-sm" id="btn-add-weight">
+                <span>+ Log Entry</span>
+              </button>
+            </div>
+
+            <!-- Interactive Canvas Weight Chart -->
+            <div class="chart-container-wrap">
+              <canvas id="weight-chart-canvas" width="600" height="240" aria-label="Weight progress chart"></canvas>
+            </div>
+
+            <div class="weight-history-table-wrap">
+              <table class="simple-table" id="weight-history-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Weight</th>
+                    <th>Change</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="weight-history-tbody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right Column: Budget & Habit Consistency Tracker -->
+          <div class="dash-card-panel">
+            <div class="panel-header">
+              <div>
+                <h3 class="panel-title">Daily Budget Tracker</h3>
+                <p class="panel-desc">Track today's real student meal expenses.</p>
+              </div>
+              <div class="budget-status-pill text-green" id="budget-status-pill">
+                Within Budget
+              </div>
+            </div>
+
+            <!-- Quick Food Expense Logger -->
+            <div class="budget-expense-box">
+              <div class="expense-row">
+                <div>
+                  <span class="exp-title">Today's Total Spent</span>
+                  <div class="exp-huge-amount" id="exp-total-display">₹225</div>
+                </div>
+                <div class="exp-calc-right">
+                  <div class="exp-stat-line">Budget Limit: <strong id="exp-limit-display">₹250</strong></div>
+                  <div class="exp-stat-line">Remaining: <strong class="text-green" id="exp-rem-display">₹25</strong></div>
+                </div>
+              </div>
+
+              <!-- Quick Log Form -->
+              <div class="quick-expense-form">
+                <input type="text" id="input-exp-name" class="form-input-sm" placeholder="Meal item (e.g. Eggs & Milk)">
+                <input type="number" id="input-exp-cost" class="form-input-sm" placeholder="₹ Amount" style="max-width: 100px;">
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-add-expense">Log Spend</button>
+              </div>
+            </div>
+
+            <!-- 7-Day Consistency Habit Tracker -->
+            <div class="habit-consistency-section">
+              <h4 class="habit-title">7-Day Consistency Tracker</h4>
+              <p class="habit-sub">Check off your diet consistency and completed workouts:</p>
+
+              <div class="habit-days-grid" id="habit-days-container">
+                <!-- 7 days rendered by JS -->
+              </div>
+            </div>
+
+            <!-- Reset / Sample Data Actions -->
+            <div class="dash-bottom-actions">
+              <button class="btn-text-muted" id="btn-load-sample-dash">Load Sample Data</button>
+              <button class="btn-text-muted" id="btn-reset-dash">Reset Progress</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         10. CONTACT SECTION
+         ====================================================================== -->
+    <section class="contact-section section-spacing" id="contact">
+      <div class="container">
+
+        <div class="contact-card-wrapper">
+          <div class="contact-grid">
+
+            <!-- Left: Founder & Contact Details -->
+            <div class="contact-info-col">
+              <span class="section-badge">Get In Touch</span>
+              <h2 class="contact-heading">Let's Build a Healthier Lifestyle.</h2>
+              <p class="contact-lead">
+                Have questions about student meal prep, budget fitness calculations, or beginner workout routines? We are here to help you get started without wasting money.
+              </p>
+
+              <div class="founder-card">
+                <div class="founder-avatar-wrap">
+                  <div class="founder-avatar-icon">YR</div>
+                </div>
+                <div class="founder-details">
+                  <h4 class="founder-name">Yashvardhan Singh Rathore</h4>
+                  <p class="founder-role">Creator & Founder, HEALTHY LIFE</p>
+                  <a href="mailto:yash345fd@gmail.com" class="founder-email-link" id="founder-email-copy">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>yash345fd@gmail.com</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-bullets">
+                <div class="c-bullet">
+                  <span class="c-icon">🎓</span>
+                  <span>College-Level Fitness & Nutrition Project</span>
+                </div>
+                <div class="c-bullet">
+                  <span class="c-icon">💡</span>
+                  <span>Open to student feedback & feature suggestions</span>
+                </div>
+                <div class="c-bullet">
+                  <span class="c-icon">🤝</span>
+                  <span>100% Free & Open Educational Resource</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Contact Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contact-form" novalidate>
+                <h3 class="form-title">Send a Message</h3>
+
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Yash" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="name@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-topic" class="form-label">Topic</label>
+                  <select id="contact-topic" class="form-select">
+                    <option value="general">General Question</option>
+                    <option value="diet">Diet & Budget Feedback</option>
+                    <option value="workout">Workout Routine Advice</option>
+                    <option value="feature">Suggest a Feature / Food Item</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-msg" class="form-label">Message</label>
+                  <textarea id="contact-msg" class="form-textarea" rows="4" placeholder="How can we help you on your fitness journey?" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="btn-send-message">
+                  <span>Send Message</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Success Notification Box -->
+              <div class="contact-success-box hidden" id="contact-success-box">
+                <div class="success-icon">✓</div>
+                <h4>Message Received!</h4>
+                <p>Thank you for reaching out. We will get back to your email at the earliest.</p>
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-send-another">Send Another Message</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
   </main>
 
   <!-- ========================================================================
-       FOOTER
+       11. FOOTER
        ======================================================================== -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-top">
+      <div class="footer-grid">
 
+        <!-- Brand Col -->
         <div class="footer-brand-col">
-          <a href="#hero" class="brand-logo">
-            <span>HEALTHY LIFE</span>
-            <span class="brand-dot"></span>
-          </a>
-          <p class="footer-tagline">
-            A modern fitness nutrition brand built around simple products, better habits, and everyday performance.
-          </p>
-          <div class="badge-tag" style="align-self: flex-start; margin-top: 0.5rem;">
-            Founded by Yashvardhan Singh Rathore
+          <div class="brand-logo footer-logo">
+            <div class="logo-mark">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <span class="logo-title">HEALTHY LIFE</span>
           </div>
+          <p class="footer-tagline">“Your Fitness Goals, Within Your Budget.”</p>
+          <p class="footer-sub-slogan">“Eat Smart. Train Smart. Live Healthy.”</p>
         </div>
 
-        <div class="footer-links-grid">
-          <div>
-            <h4 class="footer-col-title">Navigation</h4>
-            <ul class="footer-links-list">
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About Philosophy</a></li>
-              <li><a href="#products">The Collection</a></li>
-              <li><a href="#philosophy">Why Healthy Life</a></li>
-              <li><a href="#founder">Founder</a></li>
-            </ul>
-          </div>
+        <!-- Quick Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#create-plan">Create My Plan</a></li>
+          </ul>
+        </div>
 
-          <div>
-            <h4 class="footer-col-title">Products</h4>
-            <ul class="footer-links-list">
-              <li><a href="#products">Whey Protein (6 Flavors)</a></li>
-              <li><a href="#products">Performance Creatine</a></li>
-              <li><a href="#products">Daily Multivitamins</a></li>
-              <li><a href="#products">Omega-3 Fish Oil</a></li>
-              <li><a href="#products">Daily Greens</a></li>
-            </ul>
-          </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Features</h4>
+          <ul class="footer-links-list">
+            <li><a href="#diet-plan">Personalized Diet Plan</a></li>
+            <li><a href="#workout-plan">Beginner Workout Plan</a></li>
+            <li><a href="#food-options">Affordable Food Database</a></li>
+            <li><a href="#progress-dashboard">Progress Dashboard</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
 
-          <div>
-            <h4 class="footer-col-title">Connect</h4>
-            <ul class="footer-links-list">
-              <li><a href="mailto:yash345fd@gmail.com">yash345fd@gmail.com</a></li>
-              <li><a href="#contact">Contact Form</a></li>
-              <li><a href="#founder">Meet Yashvardhan</a></li>
-            </ul>
+        <!-- Author / College Project -->
+        <div class="footer-info-col">
+          <h4 class="footer-col-title">Project & Creator</h4>
+          <p class="footer-creator-text">
+            Designed & Developed by<br>
+            <strong>Yashvardhan Singh Rathore</strong><br>
+            <a href="mailto:yash345fd@gmail.com" class="footer-email">yash345fd@gmail.com</a>
+          </p>
+          <div class="college-project-tag">
+            🎓 Educational College Project
           </div>
         </div>
 
       </div>
 
-      <div class="footer-bottom">
-        <p class="footer-copyright">
-          © 2026 HEALTHY LIFE. Concept Fitness Brand by Yashvardhan Singh Rathore. All rights reserved.
+      <!-- Legal & Medical Disclaimer -->
+      <div class="footer-disclaimer-wrap">
+        <p class="footer-disclaimer-text">
+          <strong>HEALTHY LIFE DISCLAIMER:</strong> HEALTHY LIFE provides general nutrition and fitness guidance for educational purposes. Individual nutritional needs vary. Users with medical conditions, injuries, food allergies, or specific dietary requirements should consult a qualified healthcare or nutrition professional before making significant changes to their diet or exercise routine.
         </p>
-        <span class="footer-disclaimer-pill">
-          Fictional Concept Website • No Actual Products Sold
-        </span>
-        <a href="#hero" class="back-to-top-btn" aria-label="Back to top of page">
-          <span>Back to top</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <line x1="12" y1="19" x2="12" y2="5"></line>
-            <polyline points="5 12 12 5 19 12"></polyline>
-          </svg>
-        </a>
+      </div>
+
+      <!-- Bottom Copyright -->
+      <div class="footer-bottom-bar">
+        <p>© 2026 HEALTHY LIFE. Educational college project.</p>
+        <p>Built with ❤️ for student and beginner fitness.</p>
       </div>
     </div>
   </footer>
 
-  <!-- ========================================================================
-       PRODUCT QUICK VIEW MODAL
-       ======================================================================== -->
-  <div class="modal-overlay" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="modal-card">
-      <button class="modal-close-btn" aria-label="Close Product Modal">✕</button>
-      <div class="modal-grid">
-        <div class="modal-media">
-          <img id="modal-img" src="assets/whey-chocolate.jpg" alt="Product detail image">
-        </div>
-        <div class="modal-body">
-          <span class="badge-tag modal-badge" id="modal-category">Protein</span>
-          <h3 class="modal-title" id="modal-title">Healthy Life Whey Protein</h3>
-          <span style="font-size:0.9rem; color:var(--text-tertiary); margin-top:-0.75rem;" id="modal-subtitle">Rich
-            Chocolate</span>
-          <div class="modal-price" id="modal-price">₹2,499</div>
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
 
-          <p class="paragraph-body" id="modal-desc" style="font-size: 0.95rem;">
-            A smooth, everyday protein designed to complement your training routine.
-          </p>
-
-          <div class="modal-facts-grid" id="modal-facts">
-            <!-- Facts injected via JS -->
-          </div>
-
-          <div style="margin-top: 0.5rem;">
-            <h4
-              style="font-size:0.8125rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-primary); margin-bottom:0.6rem;">
-              Product Formulation Highlights:
-            </h4>
-            <ul id="modal-details-list">
-              <!-- Details injected via JS -->
-            </ul>
-          </div>
-
-          <div style="margin-top: 1rem; display:flex; gap:0.75rem;">
-            <a href="mailto:yash345fd@gmail.com?subject=Inquiry%20about%20Healthy%20Life%20Collection"
-              class="btn btn-primary btn-sm" style="flex:1;">
-              Inquire / Connect
-            </a>
-            <button class="btn btn-secondary btn-sm modal-close-action"
-              onclick="document.getElementById('product-modal').classList.remove('open'); document.body.style.overflow=''">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Toast Notification -->
-  <div class="toast-notification" id="toast" role="status" aria-live="polite">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2D6A4F" stroke-width="3" stroke-linecap="round"
-      stroke-linejoin="round">
-      <polyline points="20 6 9 17 4 12"></polyline>
-    </svg>
-    <span id="toast-msg">Email copied to clipboard!</span>
-  </div>
-
-  <!-- Main JavaScript File -->
+  <!-- Master JavaScript Application Controller -->
   <script src="main.js"></script>
 </body>
 
